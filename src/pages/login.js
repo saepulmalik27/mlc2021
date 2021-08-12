@@ -1,5 +1,5 @@
 import React from "react"
-import Login from "components/templates/login"
+import Login from "components/templates/Login"
 import Section from "components/molecules/Section"
 import Card from "components/templates/Card"
 import * as styles from "src/scss/pages/login.module.scss"
