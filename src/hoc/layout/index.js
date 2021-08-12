@@ -6,6 +6,7 @@ import Footer from "components/templates/Footer"
 import 'src/scss/App.global.scss'
 import Helpdesk from "components/molecules/Helpdesk"
 
+
 const Layout = ({ children, navigation }) => {
   return (
     <>

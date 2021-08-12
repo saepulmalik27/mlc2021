@@ -1,19 +1,15 @@
 @import "src/scss/colors";
 @import "src/scss/mixins";
-// body{
-//   background-color: $bgc-secondary
-// }
-.container{
-  background-color: $bgc-secondary;
-}
+
 .login {
+  box-sizing: border-box;
     background-color: $bgc-secondary;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+   
     @include media-max-width($initial-responsive-breakpoint) {
-      min-height: 100vh;
+      
       height: auto;
    }
    
@@ -25,6 +21,7 @@
         align-items: center;
         flex: 1 0 50%;
         padding: 10rem;
+        // height: auto;
         @include media-max-width($mobile-breakpoint) {
            padding: 1rem;
         }
@@ -38,11 +35,18 @@
     }
   &_container {
     display: flex;
+    min-height: 100vh;
     
     @include media-max-width($initial-responsive-breakpoint) {
         flex-direction: column;
+        min-height: 100vh;
       
      }
+
+     @include media-max-width(1260px) {
+      padding: 2rem 5vw;
+    
+   }
     
   }
 

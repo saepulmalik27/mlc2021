@@ -6,7 +6,7 @@ import Card from "components/templates/Card"
 import Carousel from "components/molecules/Carousel"
 import * as styles from './event-list.module.scss'
 
-const EventList = ({ title, description, contentType, contents, section }) => {
+const EventList = ({ title, description,  contents, section }) => {
   const tabComponent = data => (
     <Tabs initialTab={data?.initialTab}>
       {data.tabs.map((tab, key) => (
@@ -58,7 +58,7 @@ const EventList = ({ title, description, contentType, contents, section }) => {
       <Card title={title} description={description} />
       <br />
       <br />
-      {renderContentType(contentType, contents)}
+      {renderContentType(contents)}
     </Section>
   )
 }
