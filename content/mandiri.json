@@ -26,7 +26,14 @@
       "section": {
         "name": "mylearning",
         "component": "EventList",
-        "background" : "#29AAE3"
+        "style": {
+          "background" : "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
+          "backgroundPosition" : "center center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize" : "cover"
+        },
+        "decoration" : []
+
       },
       "title": {
         "type": "text",
@@ -103,7 +110,12 @@
       "section": {
         "name": "mylearning2",
         "component": "EventList",
-        "background" : "#29AAE3"
+        "style": {
+          "backgroundImage": "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
+          "backgroundPosition" : "center center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize" : "cover"
+        }
       },
       "title": {
         "type": "text",
@@ -149,10 +161,10 @@
           "type": "text",
           "content": "Terms & Conditions"
         },
-        "description": "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
+        "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
         "cta": [
           {
-            "title": "lanjutkan",
+            "title": "Setuju",
             "action": true,
             "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
             "id": "plw_individual_learning_term"
@@ -188,10 +200,10 @@
           "type": "text",
           "content": "Terms & Conditions"
         },
-        "description": "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
+        "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
         "cta": [
           {
-            "title": "lanjutkan",
+            "title": "Setuju",
             "action": true,
             "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
             "id": "plw_individual_learning_term"
@@ -203,7 +215,9 @@
       "section": {
         "name": "competition",
         "component": "ContentIllu",
-        "background" : "#29AAE3"
+        "style": {
+          "backgroundColor" : "#29AAE3"
+        }
       },
       "title": {
         "type": "text",

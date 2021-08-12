@@ -6,7 +6,7 @@ import location from 'src/images/icons/location.svg'
 
 const Hero = (props) => {
     return (
-        <Section>
+        <Section className={styles.custome_section}>
         <div className={styles.hero}>
             <p>{props.user?.name || ""} </p>
             <Illu src={location}/>
