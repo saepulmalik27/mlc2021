@@ -3,7 +3,7 @@ import React, { useState, useCallback} from "react"
 import Logo from "components/atoms/Logo"
 import Navbar from "components/templates/Navbar"
 import logo from "src/images/logo/logo_mlc.svg"
-import sidebarlogo from "src/images/Illu/sidebar_logo_mlc21.png"
+// import sidebarlogo from "src/images/Illu/sidebar_logo_mlc21.png"
 import * as styles from "./header.module.scss"
 import Humberger from "components/atoms/Humberger"
 // import { disableScroll } from "src/utils/helpers";
