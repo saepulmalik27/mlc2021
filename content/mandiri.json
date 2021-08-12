@@ -12,7 +12,10 @@
     {
       "section": {
         "name": "hero",
-        "component": "WithIllu"
+        "component": "WithIllu",
+        "style" : {
+          "padding-top" : "0"
+        }
       },
       "title": {
         "type": "image",

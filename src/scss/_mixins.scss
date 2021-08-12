@@ -104,9 +104,9 @@
 }
 
 @mixin global-gap(){
-    padding: 10rem 10vw;
+    padding: 8rem 10vw;
     @include media-max-width($initial-responsive-breakpoint) {
-        padding: 8rem 5vw;
+        padding: 5rem 5vw;
     }
     @include media-max-width($mobile-breakpoint) {
         padding: 2rem 5vw;

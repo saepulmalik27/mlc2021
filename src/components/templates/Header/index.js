@@ -2,7 +2,8 @@ import React, { useState, useCallback} from "react"
 
 import Logo from "components/atoms/Logo"
 import Navbar from "components/templates/Navbar"
-import permata_logo from "src/images/logo/logo_mlc.svg"
+import logo from "src/images/logo/logo_mlc.svg"
+import sidebarlogo from "src/images/Illu/sidebar_logo_mlc21.png"
 import * as styles from "./header.module.scss"
 import Humberger from "components/atoms/Humberger"
 // import { disableScroll } from "src/utils/helpers";
@@ -33,7 +34,7 @@ const Header = ({navigation}) => {
   return (
     <header className={cx(styles.header, headerDirection)}>
       <div  >
-        <Logo src={permata_logo} alt={"permata_logo"} />
+        <Logo src={logo} alt={"logo"} />
       </div>
       <div className={styles.navbar}>
         <Navbar hide={false} cta={false} navigation={navigation} />

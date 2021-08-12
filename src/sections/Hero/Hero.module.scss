@@ -1,5 +1,6 @@
 @import "src/scss/colors";
 .custome_section{
+    padding-top: 5vh;
     padding-bottom: 0;
 }
 .hero{
@@ -7,7 +8,7 @@
     justify-content: flex-start;
     align-items: center;
     background-color: $neutral;
-    padding: 2.5rem 5rem;
+    padding: 1.5rem 5rem;
     border-radius: .8rem;
 
     text-transform: capitalize;
