@@ -6,15 +6,16 @@ import Footer from "components/templates/Footer"
 import 'src/scss/App.global.scss'
 import Helpdesk from "components/molecules/Helpdesk"
 
-const Layout = ({ children, navigation }) => {
+const Layout = ({ children, navigation, footer }) => {
   return (
     <>
-      <Header navigation={navigation} />
+      {/* <Header navigation={navigation} /> */}
       <div>
         <main>{children}</main>
       </div>
       <Helpdesk contact={"+628527334546"}/>
-      <Footer creator={"Saepul Malik"} />
+      
+      {/* <Footer creator={"Saepul Malik"} /> */}
     </>
   )
 }

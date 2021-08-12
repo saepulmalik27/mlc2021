@@ -1,9 +1,15 @@
 @import "src/scss/colors";
 @import "src/scss/mixins";
+// body{
+//   background-color: $bgc-secondary
+// }
+.container{
+  background-color: $bgc-secondary;
+}
 .login {
     background-color: $bgc-secondary;
-   height: 100vh;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     @include media-max-width($initial-responsive-breakpoint) {
