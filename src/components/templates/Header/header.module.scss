@@ -3,12 +3,12 @@
 
 .header{
     display: flex;
-    flex-direction: row-reverse; 
-    box-shadow: 4px 8px 30px rgba(255, 255, 255, 0.05);
+    flex-direction: row; 
+    background-color : $bgc-primary;
+    filter: drop-shadow(0px 4px 40px rgba(100, 100, 100, 0.1));
     position: sticky;
     z-index : 999;
     top: 0;
-    background-color: $permata-bgc;
     padding: 2.5rem 10vw;
     &.column{
         

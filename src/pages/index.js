@@ -1,15 +1,18 @@
-import React, {useState, useCallback, useEffect} from "react"
+import React, {useState,useEffect} from "react"
 import About from "src/sections/About"
 import WithIllu from "src/sections/WithIllu"
 import ContentIllu from "src/sections/ContentIllu"
 import EventList from "src/sections/EventList"
 import Layout from "src/hoc/layout"
 import Seo from "src/hoc/seo"
-import Modal from "components/templates/Modal";
-import dataJson from "content/permata.json"
+import dataJson from "content/mandiri.json"
 import {getFromLocalStorage} from 'src/utils/helpers'
 import Faq from "src/sections/Faq"
-import Login from "components/templates/Login";
+import { navigate } from "gatsby"
+import Hero from 'src/sections/Hero'
+import Spinner from "components/atoms/Spinner"
+import Modal from 'components/templates/Modal'
+
 
 const IndexPage = () => {
   const [closeModal, setcloseModal] = useState(true)
@@ -44,42 +47,34 @@ const IndexPage = () => {
     let isLogin = getFromLocalStorage();
 
     if (isLogin != null) {
-      
       setisLogin(true)
-      setcloseModal(true)
       setuser(isLogin)
     }else{
+      navigate("/login")
       setisLogin(false)
-      setcloseModal(false)
       setuser(null)
+
     }
   }
 
-  const hanldeClosed =  useCallback(
-    () => {
-      setcloseModal(true)
-      setisLogin(true)
-    },
-    [closeModal],
-  )
-  
-  return (
-    <Layout navigation={dataJson.navigation}>
-      <Seo title="Home" />
-      {dataJson.sections.map((val, key) => {
-        if (user && (val.section.name === 'askSpeaker' || val.section.name === 'hero')) {
-          val.cta[0].url = val.cta[0].url.replace(`{{npk}}`,user.NPK)
-          val.cta[0].url = val.cta[0].url.replace(`{{name}}`,user.name)
-          val.cta[0].url = val.cta[0].url.replace(`{{email}}`,user.email)
-        }
-        return renderSections(val, key)
-      })}
-     
-      <Modal hide={closeModal} >
-      <Login closed={ hanldeClosed }/>
+  switch (isLogin) {
+    case true:
+      return (
+        <Layout navigation={dataJson.navigation}>
+          <Seo title="Home" />
+          <Hero user={user}/>
+          {dataJson.sections.map((val, key) => {
+            return renderSections(val, key)
+          })}
+        </Layout>
+      )
+    default:
+      return <Modal style={{backgroundColor : "transparent", display : "flex", justifyContent : "center", alignItems : "center" }}>
+        <Spinner size="300px" color="#29AAE3"/>
       </Modal>
-    </Layout>
-  )
+  }
+  
+  
 }
 
 

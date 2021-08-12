@@ -5,9 +5,9 @@ module.exports = {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: `Permata Virtual Learning`,
-    description: `Permata virtual learning week , Permata Got talent`,
-    image: `https://ik.imagekit.io/saepulmalik/PLW/dummy_4_PLCrXqEa5.png`,
+    title: `Mandiri Learning Carnival`,
+    description: `Mandiri Learning Carnival 2021`,
+    image: `https://ik.imagekit.io/saepulmalik/mlc21/logo_mlc_X2h7YZFD8q.svg?updatedAt=1628663886140`,
     author: `Inspigo Team`,
   },
   plugins: [
@@ -45,13 +45,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `permata virtual learning`,
-        short_name: `pvl`,
+        name: `Mandiri Learning Carnival`,
+        short_name: `MLC`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#29AAE3`,
+        theme_color: `#29AAE3`,
         display: `standalone`,
-        icon: `src/images/favicon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,

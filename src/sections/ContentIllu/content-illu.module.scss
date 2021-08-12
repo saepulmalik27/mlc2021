@@ -10,29 +10,37 @@
         margin-bottom: 2.4rem;
     }
 
+    &_description{
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
     &_content{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-bottom: 2rem;
-        @include media-max-width($mobile-breakpoint) {flex-direction: column;}
+        @include media-max-width($tablet-breakpoint) {flex-direction: column;}
 
         &_illu {
             max-width: 500px;
             width: 100%;
             img {
-              width: inherit;
+              max-width: 100%;
               height: auto;
             }
-            @include media-max-width($mobile-breakpoint) {
+            @include media-max-width($tablet-breakpoint) {
                 margin-bottom: 2rem;
+            }
+            &:first-of-type{
+                margin-right: 1rem;
             }
         }
 
         a:not(:last-child){
             margin-right: 2rem; 
-            @include media-max-width($mobile-breakpoint) {
+            @include media-max-width($tablet-breakpoint) {
                 margin-right: unset;
             }
         }

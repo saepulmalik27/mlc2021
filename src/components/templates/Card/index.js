@@ -6,10 +6,11 @@ import * as Typo from "src/scss/modules/Typo.module.scss"
 import Illu from "components/molecules/Illu"
 import Button from "components/atoms/Button"
 import PropTypes from 'prop-types'
+import {TITLE_STYLE} from 'src/utils/helpers'
 // import Modal from 'components/templates/Modal'
 
 
-const Card = ({ title, description, cta, align, handleTerm, handleAction, className }) => {
+const Card = ({ title, description, cta, align, handleTerm, handleAction, className, illu, style }) => {
 
   let text_align = Typo.text_center
   switch (align) {
@@ -24,23 +25,12 @@ const Card = ({ title, description, cta, align, handleTerm, handleAction, classN
       break
   }
 
-  let title_style = null;
-  if (title.style) {
-    switch (title.style) {
-      case "neon":
-        title_style = Typo.neon
-        break;
-      default:
-        title_style = null
-        break;
-    }
-  }
 
   const renderTitle = () => {
     if (title.type === "image") {
       return <Illu src={title.content} className={styles.card_title__illu} />
     } else {
-      return <h1 className={cx(Typo.lh_150, title_style)}>{title.content}</h1>
+      return <h1 className={cx(Typo.lh_150, TITLE_STYLE(title))}>{title.content}</h1>
     }
   }
 
@@ -71,16 +61,20 @@ const Card = ({ title, description, cta, align, handleTerm, handleAction, classN
   
 
   return (
-    <div className={cx(styles.card, className )}>
+    <div className={cx(styles.card, className )} style={style}>
       <div className={cx(styles.card_title, text_align)}>
           {renderTitle()}
       </div>
+      {illu && illu.src? 
+        <Illu className={styles.card_illu} src={illu.src}/>
+       : null}
+      
       <div className={styles.card_body}>
         <article className={cx(Typo.size_20, Typo.lh_150, text_align)}>
           <Interweave content={description} />
         </article>
         {
-          cta ? <div className={styles.card_body__cta}>
+          cta && cta.length > 0 ? <div className={cx(styles.card_body__cta, text_align)}>
          {renderCTA(cta)}
         </div> : null
         }
@@ -94,14 +88,18 @@ Card.defaultProps = {
   title : {"type" : "text", "content" : "lorem", "style" : null},
   description : "<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus omnis aut quae non et illo in fuga, amet voluptates esse eaque ea repellat, aspernatur tempora vero iusto itaque, praesentium facilis. </p>",
   cta : [],
-  align : null
+  align : null,
+  illu : {},
+  style : {}
 }
 
 Card.propTypes = {
   title : PropTypes.object,
   description: PropTypes.string,
   cta : PropTypes.array,
-  align : PropTypes.string
+  align : PropTypes.string,
+  illu : PropTypes.object,
+  style :PropTypes.object
 }
 
 export default Card

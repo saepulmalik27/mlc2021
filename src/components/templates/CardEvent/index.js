@@ -42,7 +42,7 @@ const CardEvent = ({ src, event, direction, cta }) => {
       </div>
       <div className={styles.cardevent_cta}>
         {
-          cta.map((val, key) => ( <Button key={key} type={ val.disabled ? "secondary" : "primary"} size={"xsmall"} cta={() => handleCta(val.disabled, val.url)} >{val.title}</Button>))
+          cta.map((val, key) => ( <Button key={key} type={ val.disabled ? "secondary" : "primary"} size={"large"} cta={() => handleCta(val.disabled, val.url)} >{val.title}</Button>))
         }
       </div>
     </div>

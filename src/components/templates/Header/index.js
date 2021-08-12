@@ -2,7 +2,7 @@ import React, { useState, useCallback} from "react"
 
 import Logo from "components/atoms/Logo"
 import Navbar from "components/templates/Navbar"
-import permata_logo from "src/images/logo/logo-permata.svg"
+import permata_logo from "src/images/logo/logo_mlc.svg"
 import * as styles from "./header.module.scss"
 import Humberger from "components/atoms/Humberger"
 // import { disableScroll } from "src/utils/helpers";

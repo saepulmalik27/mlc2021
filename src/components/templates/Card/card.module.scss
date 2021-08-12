@@ -15,6 +15,21 @@
             }
         }
     }
+    &_illu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+        @include media-max-width($mobile-breakpoint) {
+            width: 100%;
+            padding: 1rem;
+            &>*{
+                width: auto;
+                max-width: 100%;
+                height: auto;
+            }
+         }
+    }
 
 
     &_body{

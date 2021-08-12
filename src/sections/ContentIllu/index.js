@@ -7,43 +7,52 @@ import Button from "components/atoms/Button"
 
 import * as Typo from 'src/scss/modules/Typo.module.scss'
 import * as styles from './content-illu.module.scss'
+import { TITLE_STYLE } from "src/utils/helpers"
+import Interweave from "interweave"
+import Card from 'components/templates/Card'
 
-const ContentIllu = ({ title, subtitle, cta, content, section }) => {
+
+const ContentIllu = ({ title, subtitle, cta, content, section, description }) => {
 
   const renderCTA = (cta) => {
     return cta.map((val, key) => {
       return <Button type="primary" size="small" key={key} cta={() => window.open(val.url, '_blank')} >{val.title}</Button>
     })
   }
-  let title_style = Typo.neon
-  if (title.style) {
-    switch (title.style) {
-      case "neon":
-        title_style = Typo.neon
-        break;
-      default:
-        title_style = null
-        break;
-    }
-  }
+  
 
   return (
-    <Section id={section.name}>
+    <Section id={section.name} {...section}>
       <div className={cx(Typo.text_center, styles.contentillu_title)}>
-        <h1 className={cx(Typo.lh_150, title_style )}>{title.content}</h1>
+        <h1 className={cx(Typo.lh_150, TITLE_STYLE(title) )}>{title.content}</h1>
       </div>
-      <div className={cx(Typo.text_center, styles.contentillu_subtitle)}>
-        <h4 className={cx()}>{subtitle}</h4>
+      {subtitle ? <div className={cx(Typo.text_center, styles.contentillu_subtitle)}>
+        <h4 className={cx(TITLE_STYLE(subtitle) )}>{subtitle.content}</h4>
+      </div> : null}
+      <div className={styles.contentillu_description}> 
+      <Interweave content={description}/>
+
       </div>
+      
 
       <div className={styles.contentillu_content}>
         {content.map((val, key) => {
-          return <a href={cta[0].url} target="_blank" key={key} ><Illu className={styles.contentillu_content_illu} src={val.src} /></a> 
+          switch (val.type) {
+            case "illu":
+              return <a href={val?.url} target="_blank" key={key} ><Illu className={styles.contentillu_content_illu} src={val.content} /></a> 
+              case "card":
+                return <Card {...val.content} className={styles.contentillu_content_illu} key={key} />
+            default:
+              return <a href={val?.url} target="_blank" key={key} ><Illu className={styles.contentillu_content_illu} src={val.content} /></a> 
+          }
         })}
       </div>
-      <div className={styles.contentillu_cta}>
+      {
+        cta && cta.length > 0 ? <div className={styles.contentillu_cta}>
         {renderCTA(cta)}
-      </div>
+      </div> : null
+      }
+      
     </Section>
   )
 }

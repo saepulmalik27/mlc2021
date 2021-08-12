@@ -17,6 +17,26 @@
         }
     }
 }
+.body_container{
+    width: 100%;
+    position: relative;
+}
+.navigation{
+    &__left{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -50%);
+    }
+    &__right{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+    }
+}
 .carousel{
     max-height: 50rem;
     height: auto;
@@ -27,4 +47,13 @@
     justify-content: flex-start;
     align-items: stretch;
     scroll-behavior: smooth;
+    position: relative;
+    &>div:first-of-type{
+        margin-left: 0;
+    }
+    &>div:last-of-type{
+        margin-right: 0;
+    }
+
+  
 }

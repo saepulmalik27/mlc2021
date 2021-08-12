@@ -1,15 +1,16 @@
 import React, {useState} from 'react'
 import Accordion from 'components/molecules/Accordion'
-import * as typo from "src/scss/modules/Typo.module.scss"
 import Section from 'components/molecules/Section'
 import * as styles from "./faq.module.scss";
+import { TITLE_STYLE } from 'src/utils/helpers';
 
-const Faq = ({section, questions}) => {
+
+const Faq = ({section, questions, title}) => {
     const [activeQuestionIndex, setactiveQuestionIndex] = useState(-1)
     return (
-        <Section id={section?.name}>
+        <Section id={section?.name} {...section}>
             <div className={styles.faq_title}>
-            <h1 className={typo.neon}>Frequently Asked Question</h1>
+            <h1 className={TITLE_STYLE(title)}>{title.content}</h1>
             </div>
             <div className={styles.faq_content}>
                 {questions.map((question,key) => {

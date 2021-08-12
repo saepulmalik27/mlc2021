@@ -1,5 +1,5 @@
 // Libraries
-
+import * as typo from "src/scss/modules/Typo.module.scss";
 
 
 export class disableScroll {
@@ -69,4 +69,18 @@ export const formattingTime = time => {
     }
 
     return `${minutes}:${seconds}`
+}
+
+export const TITLE_STYLE = (title) => {
+    let title_style = null;
+    switch (title.style) {
+        case "neon":
+            return title_style = typo.neon
+            case "blue":
+                return title_style = typo.blue
+                case "white":
+                    return title_style = typo.white
+        default:
+            return title_style
+    }
 }

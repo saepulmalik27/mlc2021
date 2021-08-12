@@ -1,0 +1,34 @@
+@import "src/scss/colors";
+@import "src/scss/mixins";
+.agendas{
+    background-color: #149AD4;
+    border-radius: 2rem;
+    padding: 4rem 9rem;
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
+    justify-items: center;
+
+    @include media-max-width($s-tablet-breakpoint) {
+        padding: 2rem 4.5rem;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
+    }
+
+    @include media-max-width($mobile-breakpoint) {
+        padding: 2rem 2rem;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat( auto-fit, minmax(15rem, 1fr) );
+    }
+
+
+    &_detail{
+        max-width: 30rem;
+        min-width: 20rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+}

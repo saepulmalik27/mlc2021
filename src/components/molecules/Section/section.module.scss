@@ -2,4 +2,10 @@
 .section{
     position: relative;
     @include global-gap()
+
+    &_decoration{
+        position: absolute;
+        width : 100%;
+        z-index: 996;
+    }
 }

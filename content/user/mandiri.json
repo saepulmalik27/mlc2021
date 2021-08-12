@@ -1,0 +1,14 @@
+{
+    "users" : [
+        { "name": "malik", "NPK": "12345", "region" : "Parahiyangan" },
+  { "name": "malik", "NPK": "23456", "region" : "Jawa"},
+  { "NPK": "33333", "name": "Dhanes", "region" : "Bali"},
+  { "NPK": "44444", "name": "MT Incubator", "region" : "Sumatera" },
+  { "NPK": "55555", "name": "Zulfiqar", "region" : "Sulewesi" },
+  { "NPK": "66666", "name": "Kevin William", "region" : "Kantor Pusat" },
+  { "NPK": "77777", "name": "Harry", "region" : "Jawa" },
+  { "NPK": "88888", "name": "Tyo Guritno", "region" : "Jawa" },
+  { "NPK": "99999", "name": "Dita Guritno", "region" : "Jawa" },
+  { "NPK": "90909", "name": "Harry", "region" : "Kantor Pusat" }
+    ]
+}

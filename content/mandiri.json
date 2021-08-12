@@ -1,0 +1,350 @@
+{
+  "navigation": [
+    { "title": "My Learning", "id": "mylearning" },
+    { "title": "On Demand Learning", "id": "ondemandlearning" },
+    { "title": "Learning Board", "id": "learningboard" },
+    { "title": "Competion", "id": "competition" },
+    { "title": "Virtual Background", "id": "virtualBackground" },
+    { "title": "Photobooth", "id": "virtualPhotobooth" },
+    { "title": "FAQ", "id": "faq" }
+  ],
+  "sections": [
+    {
+      "section": {
+        "name": "hero",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "image",
+        "content": "https://ik.imagekit.io/saepulmalik/mlc21/logo_mlc_X2h7YZFD8q.svg?updatedAt=1628663886140"
+      },
+      "description": "<p> Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021.</p>",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/hero_mlc21_NWp86i3ZI.png?updatedAt=1628664132100",
+      "cta": []
+    },
+    {
+      "section": {
+        "name": "mylearning",
+        "component": "EventList",
+        "background" : "#29AAE3"
+      },
+      "title": {
+        "type": "text",
+        "content": "My Learning",
+        "style" : "white"
+      },
+      "description": "<p style='color : white'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
+      "contentType": "list",
+      "contents": [
+        {
+          "title": "",
+          "list_content": [
+            {
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_1_plw.png",
+              "event": {
+                "title": "Opening Permata Learning Week 2021",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+              },
+              "cta": [
+                {
+                  "title": "Join Room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_2_plw.png",
+              "event": {
+                "title": "Branch through Digital Transformation",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Ricky Diego</p>"
+              },
+              "cta": [
+                {
+                  "title": "join room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_3_plw.png",
+              "event": {
+                "title": "Digital Cyber Risk",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Daniel Victor Sirait</p>"
+              },
+              "cta": [
+                {
+                  "title": "join room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_4_plw.png",
+              "event": {
+                "title": "Digital Channel: Market & Opportunity",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Indra Gunawan</p>"
+              },
+              "cta": [
+                {
+                  "title": "join room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "mylearning2",
+        "component": "EventList",
+        "background" : "#29AAE3"
+      },
+      "title": {
+        "type": "text",
+        "content": "My Learning 2",
+        "style" : "white"
+      },
+      "description": "<p style='color : white'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
+      "contentType": "agenda",
+      "contents": [
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"},
+        {"title" : "Region 1 : Jakarta", "schedule" : "1 - 2 July 2021, 10.00 - 17.00 WIB"}
+      ]
+    },
+    {
+      "section": {
+        "name": "ondemandlearning",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "On Demand Learning",
+        "style": "blue"
+      },
+      "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio dan video learning. </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/odl_mlc21_FoUh3WeQQND.png?updatedAt=1628665332714",
+      "cta": [
+        {
+          "title": "Visit",
+          "term": true,
+          "login": true,
+          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
+          "id": "plw_individual_learning_btn"
+        }
+      ],
+      "term": {
+        "title": {
+          "type": "text",
+          "content": "Terms & Conditions"
+        },
+        "description": "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
+        "cta": [
+          {
+            "title": "lanjutkan",
+            "action": true,
+            "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
+            "id": "plw_individual_learning_term"
+          }
+        ]
+      }
+    },
+
+    {
+      "section": {
+        "name": "learningboard",
+        "component": "WithIllu"
+      },
+      "reverse": true,
+      "title": {
+        "type": "text",
+        "content": "Learning Board",
+        "style": "blue"
+      },
+      "description": "<p> Ayo capai urutan teratas dan menangkan hadiah menarik dengan cara meningkatkan kapabilitas kamu melalui seluruh konten pembelajaran yang ada di dalam On Demand Learning! Kamu dapat mengecek peringkat 10 besar melalui Learning Board ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/learning_board_mlc21_xIFojuLVO.png?updatedAt=1628666531856",
+      "cta": [
+        {
+          "title": "Visit",
+          "term": true,
+          "login": true,
+          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
+          "id": "plw_individual_learning_btn"
+        }
+      ],
+      "term": {
+        "title": {
+          "type": "text",
+          "content": "Terms & Conditions"
+        },
+        "description": "<p> Dengan mengklik “Lanjutkan”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Permata Learning Week 2021) dengan email yang kamu daftarkan pada acara ini.  </p> ",
+        "cta": [
+          {
+            "title": "lanjutkan",
+            "action": true,
+            "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
+            "id": "plw_individual_learning_term"
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "name": "competition",
+        "component": "ContentIllu",
+        "background" : "#29AAE3"
+      },
+      "title": {
+        "type": "text",
+        "content": "Competition",
+        "style": "white"
+      },
+      "subtitle": null,
+      "description" : "<p style='color : white'>Tantang dirimu dan ikuti kompetisi-kompetisi berikut! Asah keahlian dan menangkan beragam hadiah menarik!<p/>",
+      "content": [
+        {
+          "type" : "card",
+          "content": {
+            "title" :{
+              "type" : "text",
+              "content" : "Audio Story",
+              "style" : "blue"
+            },
+            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
+            "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"},
+            "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo. <br><br> <a href='https://google.com' target='_blank'>Download Guideline</a></p>",
+            "cta": [
+              {"title" : "Submit", "url" : "https://google.com"}
+            ],
+            "align" :"center"
+          },
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        },{
+          "type" : "card",
+          "content": {
+            "title" :{
+              "type" : "text",
+              "content" : "Business Idea",
+              "style" : "blue"
+            },
+            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
+            "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_2_mlc21_69_oGc9h-RYVZG.png?updatedAt=1628702957112"},
+            "description" : "<p >Ikuti kompetisi inovasi bisnis dan kumpulkan proposalmu di sini. Ide yang paling menarik berkesempatan untuk masuk ke tahap experiment dan didampingi selama masa experiment.<br><br> <a href='https://google.com'` target='_blank'>Download Guideline</a></p>",
+            "cta": [
+              {"title" : "Submit", "url" : "https://google.com"}
+            ],
+            "align" :"center"
+          },
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        } 
+      ],
+      "cta": []
+    },
+    {
+      "section": {
+        "name": "virtualBackground",
+        "component": "WithIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Virtual Background",
+        "style": "blue"
+      },
+      "description": "<p> Ayo download virtual background ini dan jangan lupa untuk memakainya selama event Mandiri Learning Carnival 2021</p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/virtual_learning_mlc21_yDgxq3mQICW.png?updatedAt=1628665996471",
+      "reverse": true,
+      "cta": [
+        {
+          "title": "Download",
+          "url": "https://drive.google.com/file/d/1OEHhPWxeiZBGDlgbDP0S8oVTqqhQ_c9x/view"
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "virtualPhotobooth",
+        "component": "ContentIllu"
+      },
+      "title": {
+        "type": "text",
+        "content": "Virtual Photobooth",
+        "style": "blue"
+      },
+      "subtitle": {
+        "type": "text",
+        "content": "Give Your Best Smile",
+        "style": null
+      },
+      "content": [
+        {
+          "type" : "illu",
+          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_2_mlc21_hYPtL9eVY3T.png?updatedAt=1628666769695",
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        },
+        {
+          "type" : "illu",
+          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_1_mlc21_eEMSMrkVg.png?updatedAt=1628666769202",
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        }
+      ],
+      "cta": [
+        {
+          "title": "Take Your Photo",
+          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
+        }
+      ]
+    },
+    {
+      "section": {
+        "name": "faq",
+        "component": "Faq"
+      },
+      "title": {
+        "type": "text",
+        "content": "FAQ",
+        "style": "blue"
+      },
+      "questions": [
+        {
+          "title": "1. Apakah saya perlu login terlebih dahulu untuk mengakses fitur yang ada di dalam website ini?",
+          "description": "<p>Ya, kamu perlu login terlebih dahulu untuk memastikan bahwa kamu memang berhak untuk mengikuti rangkaian Permata Learning Week 2021.</p>"
+        },
+        {
+          "title": "2. Apakah saya harus mendaftar untuk mengikuti Permata Learning Week 2021?",
+          "description": "<p>Ya, kamu diharuskan mendaftar lewat menu “Daftar Session” agar dapat tervalidasi sebagai peserta Permata Learning Week 2021. Kamu memiliki waktu sampai tanggal 2 Agustus 2021 untuk mendaftar lewat “Daftar Session”.</p>"
+        },
+        {
+          "title": "3. Kapan tenggat waktu pengiriman pertanyaan untuk para pembicara?",
+          "description": "<p>Pengumpulan pertanyaan untuk para pembicara akan ditutup pada tanggal 2 Agustus 2021.</p>"
+        },
+        {
+          "title": "4. Apakah pada tanggal 3 - 5 Agustus 2021 saya hanya boleh mengikuti webinar yang sudah saya pilih saat mengisi “Daftar Session”?",
+          "description": "<p>Kamu disarankan untuk mengikuti sesi webinar yang sudah dipilih sebelumnya pada saat kamu mengisi “Daftar Session”.</p>"
+        },
+        {
+          "title": "5. Di hari H, bagaimana cara saya mengikuti rangkaian sesi webinar Permata Learning Week 2021 yang sudah dipilih?",
+          "description": "<p>Silahkan akses website plw2021.com dan login terlebih dahulu. Cari sesi webinar yang ingin diikuti di bagian “Schedule” lalu klik tombol “Join Room”.</p>"
+        },
+        {
+          "title": "6. Bagaimana perhitungan poin pada Leaderboard?",
+          "description": "<p>Perhitungan poin pada Leaderboard didasarkan atas dua hal:  Jumlah kehadiran kamu di sesi webinar yang sudah dipilih dari tanggal 3 - 5 Agustus 2021 dan poin yang kamu kumpulkan saat menjawab quiz selama webinar.</p>"
+        },
+        {
+          "title": "7. Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
+          "description": "<p> Silakan kirimkan pertanyaan kamu ke alamat email permatalearningweek2021@gmail.com atau hubungi nomor Whatsapp berikut <br/>+6281383896010 - Aulia <br/>+628111237019 - Herman <br/> +628118823669 - Irene <br/> +6281286068375 - Riesta <br/> +62818828389 - Zulfiqar</p>"
+        }
+      ]
+    }
+  ]
+}
