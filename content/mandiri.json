@@ -13,8 +13,8 @@
       "section": {
         "name": "hero",
         "component": "WithIllu",
-        "style": {
-          "padding-top": "0"
+        "style" : {
+          "paddingTop" : "0"
         }
       },
       "title": {
@@ -30,145 +30,75 @@
         "name": "mylearning",
         "component": "EventList",
         "style": {
-          "background": "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
-          "backgroundPosition": "center center",
+          "background" : "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
+          "backgroundPosition" : "center center",
           "backgroundRepeat": "no-repeat",
-          "backgroundSize": "cover"
+          "backgroundSize" : "cover"
         },
-        "decoration": []
+        "decoration" : []
+
       },
       "title": {
         "type": "text",
         "content": "My Learning",
-        "style": "white"
+        "style" : "white"
       },
       "description": "<p style='color : white'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
       "contentType": "list",
       "contents": [
         {
-          "type": "lists",
-          "data": [
+          "title": "",
+          "list_content": [
             {
-              "title": "",
-              "list_content": [
+              "src": "https://ik.imagekit.io/saepulmalik/mlc21/event_mlc_1_Ia2mveyKECv.png?updatedAt=1628777395116",
+              "event": {
+                "code" : "R2DA",
+                "title": "Data Analytic",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+              },
+              "cta": [
                 {
-                  "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_1_plw.png",
-                  "event": {
-                    "title": "Opening Permata Learning Week 2021",
-                    "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
-                  },
-                  "cta": [
-                    {
-                      "title": "Join Room",
-                      "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                      "disabled": false
-                    }
-                  ]
-                },
+                  "title": "Join Room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "src": "https://ik.imagekit.io/saepulmalik/mlc21/event_mlc_2_b5kIP6RSD.png?updatedAt=1628777395134",
+              "event": {
+                "code" : "R2DW",
+                "title": "Data Wrangling",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+              },
+              "cta": [
                 {
-                  "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_2_plw.png",
-                  "event": {
-                    "title": "Branch through Digital Transformation",
-                    "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Ricky Diego</p>"
-                  },
-                  "cta": [
-                    {
-                      "title": "join room",
-                      "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                      "disabled": false
-                    }
-                  ]
-                },
-                {
-                  "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_3_plw.png",
-                  "event": {
-                    "title": "Digital Cyber Risk",
-                    "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Daniel Victor Sirait</p>"
-                  },
-                  "cta": [
-                    {
-                      "title": "join room",
-                      "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                      "disabled": false
-                    }
-                  ]
-                },
-                {
-                  "src": "https://cdn.inspigo.id/public/plw2021/event/event_030821_4_plw.png",
-                  "event": {
-                    "title": "Digital Channel: Market & Opportunity",
-                    "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 15.00 -17.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Indra Gunawan</p>"
-                  },
-                  "cta": [
-                    {
-                      "title": "join room",
-                      "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                      "disabled": false
-                    }
-                  ]
+                  "title": "Join Room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "agenda",
-          "data": [
+            ,
             {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
-            },
-            {
-              "title": "Region 1 : Jakarta",
-              "schedule": "1 - 2 July 2021, 10.00 - 17.00 WIB"
+              "src": "https://ik.imagekit.io/saepulmalik/mlc21/event_mlc_2_b5kIP6RSD.png?updatedAt=1628777395134",
+              "event": {
+                "code" : "R2BD",
+                "title": "Big Data",
+                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+              },
+              "cta": [
+                {
+                  "title": "Join Room",
+                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                  "disabled": false
+                }
+              ]
             }
+           
           ]
         }
       ]
-    },
-    {
-      "section": {
-        "name": "mylearning2",
-        "component": "EventList",
-        "style": {
-          "backgroundImage": "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
-          "backgroundPosition": "center center",
-          "backgroundRepeat": "no-repeat",
-          "backgroundSize": "cover"
-        }
-      },
-      "title": {
-        "type": "text",
-        "content": "My Learning 2",
-        "style": "white"
-      },
-      "description": "<p style='color : white'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
-      "contentType": "agenda",
-      "contents": []
     },
     {
       "section": {
@@ -251,7 +181,7 @@
         "name": "competition",
         "component": "ContentIllu",
         "style": {
-          "backgroundColor": "#29AAE3"
+          "backgroundColor" : "#29AAE3"
         }
       },
       "title": {
@@ -260,52 +190,43 @@
         "style": "white"
       },
       "subtitle": null,
-      "description": "<p style='color : white'>Tantang dirimu dan ikuti kompetisi-kompetisi berikut! Asah keahlian dan menangkan beragam hadiah menarik!<p/>",
+      "description" : "<p style='color : white'>Tantang dirimu dan ikuti kompetisi-kompetisi berikut! Asah keahlian dan menangkan beragam hadiah menarik!<p/>",
       "content": [
         {
-          "type": "card",
+          "type" : "card",
           "content": {
-            "title": {
-              "type": "text",
-              "content": "Audio Story",
-              "style": "blue"
+            "title" :{
+              "type" : "text",
+              "content" : "Audio Story",
+              "style" : "blue"
             },
-            "style": {
-              "backgroundColor": "white",
-              "borderRadius": "16px",
-              "padding": "10px"
-            },
-            "illu": {
-              "src": "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"
-            },
-            "description": "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo. <br><br> <a href='https://google.com' target='_blank'>Download Guideline</a></p>",
-            "cta": [{ "title": "Submit", "url": "https://google.com" }],
-            "align": "center"
+            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
+            "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"},
+            "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo. <br><br> <a href='https://google.com' target='_blank'>Download Guideline</a></p>",
+            "cta": [
+              {"title" : "Submit", "url" : "https://google.com"}
+            ],
+            "align" :"center"
           },
-          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
-        },
-        {
-          "type": "card",
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        },{
+          "type" : "card",
           "content": {
-            "title": {
-              "type": "text",
-              "content": "Business Idea",
-              "style": "blue"
+            "title" :{
+              "type" : "text",
+              "content" : "Business Idea",
+              "style" : "blue"
             },
-            "style": {
-              "backgroundColor": "white",
-              "borderRadius": "16px",
-              "padding": "10px"
-            },
-            "illu": {
-              "src": "https://ik.imagekit.io/saepulmalik/mlc21/competition_2_mlc21_69_oGc9h-RYVZG.png?updatedAt=1628702957112"
-            },
-            "description": "<p >Ikuti kompetisi inovasi bisnis dan kumpulkan proposalmu di sini. Ide yang paling menarik berkesempatan untuk masuk ke tahap experiment dan didampingi selama masa experiment.<br><br> <a href='https://google.com'` target='_blank'>Download Guideline</a></p>",
-            "cta": [{ "title": "Submit", "url": "https://google.com" }],
-            "align": "center"
+            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
+            "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_2_mlc21_69_oGc9h-RYVZG.png?updatedAt=1628702957112"},
+            "description" : "<p >Ikuti kompetisi inovasi bisnis dan kumpulkan proposalmu di sini. Ide yang paling menarik berkesempatan untuk masuk ke tahap experiment dan didampingi selama masa experiment.<br><br> <a href='https://google.com'` target='_blank'>Download Guideline</a></p>",
+            "cta": [
+              {"title" : "Submit", "url" : "https://google.com"}
+            ],
+            "align" :"center"
           },
-          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
-        }
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
+        } 
       ],
       "cta": []
     },
@@ -346,14 +267,14 @@
       },
       "content": [
         {
-          "type": "illu",
+          "type" : "illu",
           "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_2_mlc21_hYPtL9eVY3T.png?updatedAt=1628666769695",
-          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
         },
         {
-          "type": "illu",
+          "type" : "illu",
           "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_1_mlc21_eEMSMrkVg.png?updatedAt=1628666769202",
-          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
+          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
         }
       ],
       "cta": [

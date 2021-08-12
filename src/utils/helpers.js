@@ -1,6 +1,9 @@
 // Libraries
 import * as typo from "src/scss/modules/Typo.module.scss";
 
+import dataEvent from "content/master-event.json"
+import moment from 'moment'
+
 
 export class disableScroll {
     static on() {
@@ -49,6 +52,28 @@ export const getFromLocalStorage = () => {
 	// 	return null
 	// }
 	return item;
+}
+
+export const getEventData = () => {
+    const user = getFromLocalStorage();
+    const dateNow = moment().format("YYYY-MM-DD")
+    const events = dataEvent.all_event_regions.filter((val) => {
+        const dateFast = moment(val.datetime).format("YYYY-MM-DD")
+        return val.nip === user.NPK && dateNow === dateFast
+    })
+    console.log(events);
+    if (events.length == 0) {
+        return {
+            type : "agenda",
+            data : dataEvent.all_events
+        }
+    }else{
+        return {
+            type : "list",
+            data : events
+        }
+    }
+  
 }
 
 

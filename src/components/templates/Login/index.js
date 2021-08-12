@@ -72,7 +72,7 @@ const Login = ({closed, banner}) => {
       setName("")
       setEmail("")
       if (!user) {
-        setErrorNpk("NPK tidak terdaftar")        
+        setErrorNpk("NIP tidak terdaftar, silahkan hubungi Help Desk melalui button di kanan bawah.")        
       }
       if (!email) {
         setErrorEmail("Email tidak Terisi")
