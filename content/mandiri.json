@@ -200,7 +200,7 @@
               "content" : "Audio Story",
               "style" : "blue"
             },
-            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
+            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "2rem"},
             "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"},
             "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo. <br><br> <a href='https://google.com' target='_blank'>Download Guideline</a></p>",
             "cta": [
@@ -209,24 +209,7 @@
             "align" :"center"
           },
           "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
-        },{
-          "type" : "card",
-          "content": {
-            "title" :{
-              "type" : "text",
-              "content" : "Business Idea",
-              "style" : "blue"
-            },
-            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "10px"},
-            "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_2_mlc21_69_oGc9h-RYVZG.png?updatedAt=1628702957112"},
-            "description" : "<p >Ikuti kompetisi inovasi bisnis dan kumpulkan proposalmu di sini. Ide yang paling menarik berkesempatan untuk masuk ke tahap experiment dan didampingi selama masa experiment.<br><br> <a href='https://google.com'` target='_blank'>Download Guideline</a></p>",
-            "cta": [
-              {"title" : "Submit", "url" : "https://google.com"}
-            ],
-            "align" :"center"
-          },
-          "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
-        } 
+        }
       ],
       "cta": []
     },
@@ -242,7 +225,7 @@
       },
       "description": "<p> Ayo download virtual background ini dan jangan lupa untuk memakainya selama event Mandiri Learning Carnival 2021</p> ",
       "src": "https://ik.imagekit.io/saepulmalik/mlc21/virtual_learning_mlc21_yDgxq3mQICW.png?updatedAt=1628665996471",
-      "reverse": true,
+      "reverse": false,
       "cta": [
         {
           "title": "Download",

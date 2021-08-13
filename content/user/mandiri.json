@@ -1,6 +1,6 @@
 {
     "users" : [
-        { "name": "malik", "NPK": "12345", "region" : "Parahiyangan" },
+        { "name": "Saepul Malik Rachman", "NPK": "12345", "region" : "Parahiyangan" },
   { "name": "malik", "NPK": "23456", "region" : "Jawa"},
   { "NPK": "33333", "name": "Dhanes", "region" : "Bali"},
   { "NPK": "44444", "name": "MT Incubator", "region" : "Sumatera" },
