@@ -1,14 +1,54 @@
 {
-    "users" : [
-        { "name": "Saepul Malik Rachman", "NPK": "12345", "region" : "Parahiyangan" },
-  { "name": "malik", "NPK": "23456", "region" : "Jawa"},
-  { "NPK": "33333", "name": "Dhanes", "region" : "Bali"},
-  { "NPK": "44444", "name": "MT Incubator", "region" : "Sumatera" },
-  { "NPK": "55555", "name": "Zulfiqar", "region" : "Sulewesi" },
-  { "NPK": "66666", "name": "Kevin William", "region" : "Kantor Pusat" },
-  { "NPK": "77777", "name": "Harry", "region" : "Jawa" },
-  { "NPK": "88888", "name": "Tyo Guritno", "region" : "Jawa" },
-  { "NPK": "99999", "name": "Dita Guritno", "region" : "Jawa" },
-  { "NPK": "90909", "name": "Harry", "region" : "Kantor Pusat" }
+    "users": [{"name" : "malik", "NPK" : "12345", "region": "god region"},
+        {
+            "name": "Joey",
+            "NPK": "12345",
+            "region": "1"
+        },
+        {
+            "name": "Tribianni",
+            "NPK": "22224",
+            "region": "1"
+        },
+        {
+            "name": "Chandler",
+            "NPK": "77889",
+            "region": "2"
+        },
+        {
+            "name": "Janice",
+            "NPK": "88990",
+            "region": "2"
+        },
+        {
+            "name": "Rony",
+            "NPK": "88777",
+            "region": "3"
+        },
+        {
+            "name": "John",
+            "NPK": "23456",
+            "region": "3"
+        },
+        {
+            "name": "Rachel",
+            "NPK": "99987",
+            "region": "4"
+        },
+        {
+            "name": "Green",
+            "NPK": "99991",
+            "region": "4"
+        },
+        {
+            "name": "Monica",
+            "NPK": "88888",
+            "region": "Kantor Pusat"
+        },
+        {
+            "name": "Geller",
+            "NPK": "07779",
+            "region": "Kantor Pusat"
+        }
     ]
 }
