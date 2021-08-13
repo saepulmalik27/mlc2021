@@ -20,7 +20,7 @@
         justify-content: center;
         align-items: center;
         flex: 1 0 50%;
-        padding: 10rem;
+        padding: 5vw;
         // height: auto;
         @include media-max-width($mobile-breakpoint) {
            padding: 1rem;

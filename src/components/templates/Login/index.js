@@ -3,6 +3,7 @@ import Input from "components/atoms/Input"
 import Button from "components/atoms/Button"
 import Illu from "components/molecules/Illu"
 import * as styles from "./login.module.scss"
+import * as Typo from "src/scss/modules/Typo.module.scss"
 import userData from "content/user/mandiri.json"
 import {saveToLocalStorage, getFromLocalStorage} from 'src/utils/helpers'
 import iconemail from 'src/images/icons/email.svg'
@@ -98,7 +99,7 @@ const Login = ({closed, banner}) => {
       
       <div className={styles.login_body}>
         <div className={styles.login_body__title}>
-          <h4>Login</h4>
+          <h4 className={Typo.lh_170}>Login</h4>
           <p>Masukkan 5 Digit NPK dan Email Pribadi</p>
         </div>
         <div className={styles.login_body__form}>
@@ -140,6 +141,10 @@ const Login = ({closed, banner}) => {
         >
           Masuk
         </Button>
+
+        <p  className={styles.label_info}>
+        Apabila Anda memiliki Pertanyaan, silahkan klik tombol <span  style={{cursor : 'pointer'}}><strong> Disini. </strong></span> 
+        </p>
         
       </div>
     </div>

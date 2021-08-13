@@ -70,7 +70,7 @@ const Card = ({ title, description, cta, align, handleTerm, handleAction, classN
        : null}
       
       <div className={styles.card_body}>
-        <article className={cx(Typo.size_20, Typo.lh_150, text_align)}>
+        <article className={cx(Typo.size_16, Typo.lh_150, text_align)}>
           <Interweave content={description} />
         </article>
         {

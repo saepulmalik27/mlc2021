@@ -7,7 +7,6 @@
     display: grid;
     grid-gap: 4rem;
     grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
-    justify-items: center;
 
     @include media-max-width($s-tablet-breakpoint) {
         padding: 2rem 4.5rem;
