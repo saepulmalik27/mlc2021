@@ -1,11 +1,12 @@
 {
   "navigation": [
-    { "title": "My Learning", "id": "mylearning" },
-    { "title": "On Demand Learning", "id": "ondemandlearning" },
-    { "title": "Learning Board", "id": "learningboard" },
-    { "title": "Competion", "id": "competition" },
-    { "title": "Virtual Background", "id": "virtualBackground" },
-    { "title": "Photobooth", "id": "virtualPhotobooth" },
+    {"title" : "Tentang", "id" :"tentang"},
+    { "title": "Jadwal Saya", "id": "jadwalsaya" },
+    { "title": "Konten Pembelajaran", "id": "kontenpembelajaran" },
+    { "title": "Statistik Pembelajaran", "id": "statistikpembelajaran" },
+    { "title": "Kompetisi", "id": "kompetisi" },
+    { "title": "Latar Virtual", "id": "latarvirtual" },
+    { "title": "Foto Virtual", "id": "fotovirtual" },
     { "title": "FAQ", "id": "faq" }
   ],
   "sections": [
@@ -29,21 +30,15 @@
       "section": {
         "name": "mylearning",
         "component": "EventList",
-        "style": {
-          "background" : "url(https://ik.imagekit.io/saepulmalik/mlc21/background_mylearning_mlc21_DpxXUaBOiVo.png?updatedAt=1628753374799)",
-          "backgroundPosition" : "center center",
-          "backgroundRepeat": "no-repeat",
-          "backgroundSize" : "cover"
-        },
         "decoration" : []
 
       },
       "title": {
         "type": "text",
         "content": "My Learning",
-        "style" : "white"
+        "style" : "blue"
       },
-      "description": "<p style='color : white'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
+      "description": "<p style='color : #173A70'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
       "contentType": "list",
       "contents": [
         {
@@ -279,32 +274,32 @@
       },
       "questions": [
         {
-          "title": "1. Apakah saya perlu login terlebih dahulu untuk mengakses fitur yang ada di dalam website ini?",
-          "description": "<p>Ya, kamu perlu login terlebih dahulu untuk memastikan bahwa kamu memang berhak untuk mengikuti rangkaian Permata Learning Week 2021.</p>"
+          "title": "1 Saya mengalami kendala saat masuk ke dalam website Mandiri Learning Carnival 2021.",
+          "description": "<p>Pastikan kamu sudah memasukan NIP dengan benar dan mengisi baris email dengan email pribadimu lalu menekan tombol “Masuk”.</p>"
         },
         {
-          "title": "2. Apakah saya harus mendaftar untuk mengikuti Permata Learning Week 2021?",
-          "description": "<p>Ya, kamu diharuskan mendaftar lewat menu “Daftar Session” agar dapat tervalidasi sebagai peserta Permata Learning Week 2021. Kamu memiliki waktu sampai tanggal 2 Agustus 2021 untuk mendaftar lewat “Daftar Session”.</p>"
+          "title": "2 Saya tidak memiliki email Mandiri, apakah saya masih dapat masuk ke dalam website Mandiri Learning Carnival 2021?",
+          "description": "<p>Kamu tidak harus menggunakan email Mandiri untuk masuk ke dalam website ini, cukup masukan email pribadi kamu yang masih aktif.</p>"
         },
         {
-          "title": "3. Kapan tenggat waktu pengiriman pertanyaan untuk para pembicara?",
-          "description": "<p>Pengumpulan pertanyaan untuk para pembicara akan ditutup pada tanggal 2 Agustus 2021.</p>"
+          "title": "3 Saya sudah memasukan NIP dengan benar dan mengisi baris email tetapi saya mendapat notifikasi bahwa NIP saya tidak terdaftar.",
+          "description": "<p>Pastikan kamu memang berhak mengikuti acara ini dan apabila masih menemukan kendala, kamu dapat menghubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
         },
         {
-          "title": "4. Apakah pada tanggal 3 - 5 Agustus 2021 saya hanya boleh mengikuti webinar yang sudah saya pilih saat mengisi “Daftar Session”?",
-          "description": "<p>Kamu disarankan untuk mengikuti sesi webinar yang sudah dipilih sebelumnya pada saat kamu mengisi “Daftar Session”.</p>"
+          "title": "4 Di mana saya dapat melihat jadwal acara/kelas yang harus saya ikuti?",
+          "description": "<p>Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Setelah itu klik “Jadwal Saya” pada navigasi untuk melihat seluruh acara/kelas yang harus kamu ikuti lalu pilih acara/kelas yang ingin diikuti dengan mengklik tombol “Masuk”, kamu akan otomatis diarahkan ke Zoom.</p>"
         },
         {
-          "title": "5. Di hari H, bagaimana cara saya mengikuti rangkaian sesi webinar Permata Learning Week 2021 yang sudah dipilih?",
-          "description": "<p>Silahkan akses website plw2021.com dan login terlebih dahulu. Cari sesi webinar yang ingin diikuti di bagian “Schedule” lalu klik tombol “Join Room”.</p>"
+          "title": "5 Saya sudah berhasil masuk ke dalam website Mandiri Learning Carnival 2021 tapi saya tidak dapat melihat jadwal acara/kelas saya.",
+          "description": "<p>Ada dua kondisi untuk menjelaskan hal ini: Pertama, acara/kelas di region kamu memang belum dimulai. Kedua, acara/kelas di region kamu sudah selesai. Apabila acara/kelas di region kamu sedang berjalan namun kamu tidak melihat jadwalmu, silahkan hubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
         },
         {
-          "title": "6. Bagaimana perhitungan poin pada Leaderboard?",
-          "description": "<p>Perhitungan poin pada Leaderboard didasarkan atas dua hal:  Jumlah kehadiran kamu di sesi webinar yang sudah dipilih dari tanggal 3 - 5 Agustus 2021 dan poin yang kamu kumpulkan saat menjawab quiz selama webinar.</p>"
+          "title": "6 Bagaimana cara saya mengikuti kompetisi Audio Story Competition?",
+          "description": "<p>Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Pilih “Kompetisi” pada navigasi lalu kamu dapat mengunduh panduan lengkapnya untuk mengetahui cara berpartisipasi.</p>"
         },
         {
-          "title": "7. Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
-          "description": "<p> Silakan kirimkan pertanyaan kamu ke alamat email permatalearningweek2021@gmail.com atau hubungi nomor Whatsapp berikut <br/>+6281383896010 - Aulia <br/>+628111237019 - Herman <br/> +628118823669 - Irene <br/> +6281286068375 - Riesta <br/> +62818828389 - Zulfiqar</p>"
+          "title": "7 Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
+          "description": "<p> Silahkan kirimkan pertanyaan kamu dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
         }
       ]
     }

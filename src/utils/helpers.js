@@ -109,3 +109,27 @@ export const TITLE_STYLE = (title) => {
             return title_style
     }
 }
+
+
+export const fetchUser = async (data) => {  
+    
+    try {
+        const response = await fetch('https://inspigo-b2b-api.herokuapp.com/mlc/users', {
+        method : "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data)
+      })
+      console.log(response, response.status);
+      if (response.status === 200) {
+        const user = await response.json();
+        return user;
+      }else{
+        return undefined
+      }
+    } catch (error) {
+        return undefined;
+    }
+  
+} 

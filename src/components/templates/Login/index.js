@@ -13,6 +13,7 @@ import iconwarning from 'src/images/icons/warning.svg'
 import loginBanner from 'src/images/logo/logo_mlc.svg'
 import PropTypes from 'prop-types'
 import { navigate } from "gatsby"
+import { fetchUser } from "src/utils/helpers"
 
 
 
@@ -59,8 +60,10 @@ const Login = ({closed, banner}) => {
     }
   }
 
-  const login = data => {
-    const user = userData.users.find(val =>  val.NPK.trim() === data)
+  const login = async data => {
+    // const user = userData.users.find(val =>  val.NPK.trim() === data)
+    const user = await fetchUser({nip : data, email})
+  
     if (user && email) {
       setuser(user)
       setName(user.name)

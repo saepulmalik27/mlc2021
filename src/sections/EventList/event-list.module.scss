@@ -1,7 +1,7 @@
 @import "src/scss/colors";
 @import "src/scss/mixins";
 .agendas{
-    background-color: #149AD4;
+    background-color: $agenda;
     border-radius: 2rem;
     padding: 4rem 9rem;
     display: grid;
