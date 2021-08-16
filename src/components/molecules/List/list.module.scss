@@ -28,6 +28,7 @@
         height: 100%;
         padding: 0 1rem;
         display: flex;
+        color: $text-primary;
         font-size: 1.4rem;
             align-items: center;
             justify-content: center;
@@ -38,7 +39,7 @@
     li:hover{
         background-color:$bgc-secondary;
         border-radius: 8px;
-        color : white;
+        color : $text-primary;
     }
     
 }

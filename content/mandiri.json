@@ -22,7 +22,7 @@
         "type": "image",
         "content": "https://ik.imagekit.io/saepulmalik/mlc21/logo_mlc_X2h7YZFD8q.svg?updatedAt=1628663886140"
       },
-      "description": "<p> #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/instagram_j6uzNMe3_.svg?updatedAt=1629107507207'>  <a href='https://www.instagram.com/lifeatmug/?hl=en'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/facebook_XTRUoCe6Yxv.svg?updatedAt=1629107505253'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/youtube_Z4v3ZFxoCQB.svg?updatedAt=1629107509109'> <a href='https://www.youtube.com/channel/UCNiEtPhFm1k4D5dddkVh5Pw/featured'>&nbsp;Mandiri Learning Carnival</a> </div> </p>",
+      "description": "<p style='color : #173A70' > #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/instagram_j6uzNMe3_.svg?updatedAt=1629107507207'>  <a href='https://www.instagram.com/lifeatmug/?hl=en' target='_blank'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/facebook_XTRUoCe6Yxv.svg?updatedAt=1629107505253'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr' target='_blank'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'> <img src='https://ik.imagekit.io/saepulmalik/mlc21/youtube_Z4v3ZFxoCQB.svg?updatedAt=1629107509109'> <a href='https://www.youtube.com/channel/UCNiEtPhFm1k4D5dddkVh5Pw/featured' target='_blank'>&nbsp;Mandiri Learning Carnival</a> </div> </p>",
       "src": "https://ik.imagekit.io/saepulmalik/mlc21/hero_F6TBzhQI1.png?updatedAt=1629107171257",
       "cta": []
     },
@@ -41,17 +41,17 @@
     },
     {
       "section": {
-        "name": "mylearning",
+        "name": "jadwalsaya",
         "component": "EventList",
         "decoration" : []
 
       },
       "title": {
         "type": "text",
-        "content": "My Learning",
+        "content": "Jadwal Saya",
         "style" : "blue"
       },
-      "description": "<p style='color : #173A70'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Room akan dibuka setengah jam sebelum acara dimulai.</p>",
+      "description": "<p style='color : #173A70'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Kelas akan dibuka setengah jam sebelum acara dimulai.</p>",
       "contentType": "list",
       "contents": [
         {
@@ -66,7 +66,7 @@
               },
               "cta": [
                 {
-                  "title": "Join Room",
+                  "title": "Masuk",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled": false
                 }
@@ -81,7 +81,7 @@
               },
               "cta": [
                 {
-                  "title": "Join Room",
+                  "title": "Masuk",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled": false
                 }
@@ -97,7 +97,7 @@
               },
               "cta": [
                 {
-                  "title": "Join Room",
+                  "title": "Masuk",
                   "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
                   "disabled": false
                 }
@@ -110,19 +110,19 @@
     },
     {
       "section": {
-        "name": "ondemandlearning",
+        "name": "kontenpembelajaran",
         "component": "WithIllu"
       },
       "title": {
         "type": "text",
-        "content": "On Demand Learning",
+        "content": "Konten Pembelajaran",
         "style": "blue"
       },
-      "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio dan video learning. </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc21/odl_mlc21_FoUh3WeQQND.png?updatedAt=1628665332714",
+      "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio, video dan rangkuman kelas yang dikemas dalam ilustrasi menarik! </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/konten_pembelajaran_rQPOMUD7i.png?updatedAt=1629107171579",
       "cta": [
         {
-          "title": "Visit",
+          "title": "Lihat Semua",
           "term": true,
           "login": true,
           "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
@@ -148,20 +148,20 @@
 
     {
       "section": {
-        "name": "learningboard",
+        "name": "statistikpembelajaran",
         "component": "WithIllu"
       },
       "reverse": true,
       "title": {
         "type": "text",
-        "content": "Learning Board",
+        "content": "Statistik Pembelajaran",
         "style": "blue"
       },
-      "description": "<p> Ayo capai urutan teratas dan menangkan hadiah menarik dengan cara meningkatkan kapabilitas kamu melalui seluruh konten pembelajaran yang ada di dalam On Demand Learning! Kamu dapat mengecek peringkat 10 besar melalui Learning Board ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc21/learning_board_mlc21_xIFojuLVO.png?updatedAt=1628666531856",
+      "description": "<p> Ayo capai peringkat teratas dan menangkan hadiah menarik dengan cara menyelesaikan seluruh konten pembelajaran yang ada! Kamu dapat mengecek peringkat 10 besar di halaman ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/statistik_pembelajaran_1l5J8LvwLF.png?updatedAt=1629107176279",
       "cta": [
         {
-          "title": "Visit",
+          "title": "Selengkapnya",
           "term": true,
           "login": true,
           "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
@@ -186,19 +186,16 @@
     },
     {
       "section": {
-        "name": "competition",
-        "component": "ContentIllu",
-        "style": {
-          "backgroundColor" : "#29AAE3"
-        }
+        "name": "kompetisi",
+        "component": "ContentIllu"
       },
       "title": {
         "type": "text",
-        "content": "Competition",
-        "style": "white"
+        "content": "Kompetisi",
+        "style": "blue"
       },
       "subtitle": null,
-      "description" : "<p style='color : white'>Tantang dirimu dan ikuti kompetisi-kompetisi berikut! Asah keahlian dan menangkan beragam hadiah menarik!<p/>",
+      "description" : "<p style='color : #173A70'>Tantang dirimu dan ikuti kompetisi berikut! Asah keahlian dan menangkan hadiah menarik!<p/>",
       "content": [
         {
           "type" : "card",
@@ -208,9 +205,9 @@
               "content" : "Audio Story",
               "style" : "blue"
             },
-            "style" : {"backgroundColor" : "white", "borderRadius" : "16px", "padding" : "2rem"},
+            "style" : {"backgroundColor" : "white", "maxWidth" : "50rem", "boxShadow": "0px 4px 40px rgba(40, 40, 40, 0.1)", "borderRadius" : "16px", "padding" : "2rem"},
             "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"},
-            "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo. <br><br> <a href='https://google.com' target='_blank'>Download Guideline</a></p>",
+            "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo <br><br> <a href='https://google.com' target='_blank'>Unduh Panduan</a></p>",
             "cta": [
               {"title" : "Submit", "url" : "https://google.com"}
             ],
@@ -223,54 +220,54 @@
     },
     {
       "section": {
-        "name": "virtualBackground",
+        "name": "latarvirtual",
         "component": "WithIllu"
       },
       "title": {
         "type": "text",
-        "content": "Virtual Background",
+        "content": "Latar Virtual",
         "style": "blue"
       },
-      "description": "<p> Ayo download virtual background ini dan jangan lupa untuk memakainya selama event Mandiri Learning Carnival 2021</p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc21/virtual_learning_mlc21_yDgxq3mQICW.png?updatedAt=1628665996471",
+      "description": "<p> Ayo unduh latar virtual ini dan jangan lupa untuk memakainya selama acara Mandiri Learning Carnival 2021</p> ",
+      "src": "https://ik.imagekit.io/saepulmalik/mlc21/latar_virtual_iE8ZcncCmOv.png?updatedAt=1629107172702",
       "reverse": false,
       "cta": [
         {
-          "title": "Download",
+          "title": "Unduh",
           "url": "https://drive.google.com/file/d/1OEHhPWxeiZBGDlgbDP0S8oVTqqhQ_c9x/view"
         }
       ]
     },
     {
       "section": {
-        "name": "virtualPhotobooth",
+        "name": "fotovirtual",
         "component": "ContentIllu"
       },
       "title": {
         "type": "text",
-        "content": "Virtual Photobooth",
+        "content": "Berikan Senyum Terbaikmu",
         "style": "blue"
       },
       "subtitle": {
         "type": "text",
-        "content": "Give Your Best Smile",
+        "content": "Ayo coba foto virtual ini",
         "style": null
       },
       "content": [
         {
           "type" : "illu",
-          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_2_mlc21_hYPtL9eVY3T.png?updatedAt=1628666769695",
+          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_1_D0BmRs6tQ.png?updatedAt=1629107175674",
           "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
         },
         {
           "type" : "illu",
-          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_1_mlc21_eEMSMrkVg.png?updatedAt=1628666769202",
+          "content": "https://ik.imagekit.io/saepulmalik/mlc21/photobooth_2_oOl8d-GvcF0.png?updatedAt=1629107177342",
           "url" : "https://app.virtualbooth.me/booth/06rqMbLJ"
         }
       ],
       "cta": [
         {
-          "title": "Take Your Photo",
+          "title": "Ambil Foto",
           "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
         }
       ]
@@ -282,7 +279,7 @@
       },
       "title": {
         "type": "text",
-        "content": "FAQ",
+        "content": "Pertanyaan Yang Sering Diajukan",
         "style": "blue"
       },
       "questions": [
