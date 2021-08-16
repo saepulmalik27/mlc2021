@@ -27,6 +27,19 @@
       "cta": []
     },
     {
+      "section" : {
+        "name" : "tentang",
+        "component" : "About"
+      },
+      "align" : "center",
+      "title" : {
+        "type" : "text",
+        "content" : "Tentang Mandiri Learning Carnival",
+        "style" : "blue"
+       },
+       "description" : "<p style='color : #173A70' >Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021. Ikuti seluruh acara yang ada dan asah dirimu!</p>"
+    },
+    {
       "section": {
         "name": "mylearning",
         "component": "EventList",
