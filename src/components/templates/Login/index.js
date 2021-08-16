@@ -10,7 +10,7 @@ import iconemail from 'src/images/icons/email.svg'
 import iconuser from 'src/images/icons/user.svg'
 import iconlist from 'src/images/icons/userid.svg'
 import iconwarning from 'src/images/icons/warning.svg'
-import loginBanner from 'src/images/logo/logo_mlc.svg'
+import loginBanner from 'src/images/login_banner.png'
 import PropTypes from 'prop-types'
 import { navigate } from "gatsby"
 import { fetchUser } from "src/utils/helpers"

@@ -6,6 +6,7 @@ import * as styles from "src/scss/pages/login.module.scss"
 import Seo from "src/hoc/seo"
 import Helpdesk from 'components/molecules/Helpdesk'
 
+
 const login = () => {
   return (
     <>
@@ -24,13 +25,13 @@ const login = () => {
             }
             illu={{
               src:
-                "https://ik.imagekit.io/saepulmalik/mlc21/login_banner_I4tJVfHEOAJ.png?updatedAt=1628698018753",
+                "https://ik.imagekit.io/saepulmalik/mlc21/login_banner_LAEy2h_FyAq_.png?updatedAt=1629104927088",
             }}
           />
           <div className={styles.login_form}>
             <Login banner={false} />
           </div>
-      <Helpdesk contact={"+628527334546"}/>
+      <Helpdesk contact={"+6281383896010"}/>
 
           
         </Section>

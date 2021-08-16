@@ -4,9 +4,11 @@
 .login {
   box-sizing: border-box;
     background-color: $bgc-secondary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    min-height: 100vh;
    
     @include media-max-width($initial-responsive-breakpoint) {
       
@@ -21,6 +23,8 @@
         align-items: center;
         flex: 1 0 50%;
         padding: 5vw;
+        max-height: 50rem;
+        max-width: 50rem;
         // height: auto;
         @include media-max-width($mobile-breakpoint) {
            padding: 1rem;
@@ -34,18 +38,17 @@
 
     }
   &_container {
+    margin: auto 0;
     display: flex;
-    min-height: 100vh;
+    height: auto;
+    align-items: center;
     
     @include media-max-width($initial-responsive-breakpoint) {
         flex-direction: column;
-        min-height: 100vh;
-      
      }
 
      @include media-max-width(1260px) {
       padding: 2rem 5vw;
-    
    }
     
   }
