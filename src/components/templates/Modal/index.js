@@ -21,8 +21,10 @@ const Modal = props => {
   return hide ? null : (
     <div className={styles.modal} >
       <div className={styles.modal__backdrop} onClick={closed}></div>
+
       <div className={cx(styles.modal__wraper, modal_size)} style={style}>
-        {closed ?<div className={styles.modal__close} onClick={closed}><Illu src={close}/></div>  : null }
+      {closed ?<div className={styles.modal__close} onClick={closed}><Illu src={close}/></div>  : null }
+
         {children}
       </div>
     </div>
