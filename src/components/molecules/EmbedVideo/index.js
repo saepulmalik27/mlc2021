@@ -7,7 +7,7 @@ const EmbedVideo = props => {
     <div className={styles.video}>
       <div className={styles.video_container}>
         {url ? (
-          <iframe src={url} frameborder="0"></iframe>
+          <iframe src={url} frameBorder="0"></iframe>
         ) : (
           <img src="" alt="video" />
         )}

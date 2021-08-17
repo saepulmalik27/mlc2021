@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Section from "components/molecules/Section"
 import Tabs from "components/templates/Tabs"
 import CardEvent from "components/templates/CardEvent"
@@ -8,6 +8,12 @@ import * as styles from "./event-list.module.scss"
 import { getEventData } from "../../utils/helpers"
 
 const EventList = ({ title, description, contentType, contents, section }) => {
+
+  const [dataEvent, setDataEvent] = useState({})
+  useEffect(() => {
+    getEventData().then(data => setDataEvent(data))
+  }, [dataEvent])
+  
   const tabComponent = data => (
     <Tabs initialTab={data?.initialTab}>
       {data.tabs.map((tab, key) => (
@@ -20,27 +26,27 @@ const EventList = ({ title, description, contentType, contents, section }) => {
     </Tabs>
   )
 
-  const listComponent = (data, filtered) =>
+  const listComponent = (data) =>
     data.map((list, key) => {
-      if (filtered) {
-        console.log(filtered, "filtered")
-        console.log(list.list_content, "content")
-        return (
-          <Carousel title={list.title} key={key}>
-            {list.list_content.filter((val) => {
-                console.log(val.event.code);
-                return (
-                  filtered.find(fil => {
-                    return fil.code === val.event.code
-                  }) != undefined
-                )
-              })
-              .map((content, id) => {
-                return <CardEvent {...content} direction={"column"} key={id} />
-              })}
-          </Carousel>
-        )
-      } else {
+      // if (filtered) {
+      //   console.log(filtered, "filtered")
+      //   console.log(list.list_content, "content")
+      //   return (
+      //     <Carousel title={list.title} key={key}>
+      //       {list.list_content.filter((val) => {
+      //           console.log(val.event.code);
+      //           return (
+      //             filtered.find(fil => {
+      //               return fil.code === val.event.code
+      //             }) != undefined
+      //           )
+      //         })
+      //         .map((content, id) => {
+      //           return <CardEvent {...content} direction={"column"} key={id} />
+      //         })}
+      //     </Carousel>
+      //   )
+      // } else {
         return (
           <Carousel title={list.title} key={key}>
             {list.list_content.map((content, id) => {
@@ -48,7 +54,7 @@ const EventList = ({ title, description, contentType, contents, section }) => {
             })}
           </Carousel>
         )
-      }
+      // }
     })
 
   const agendaComponent = data => (
@@ -67,21 +73,19 @@ const EventList = ({ title, description, contentType, contents, section }) => {
   )
 
   const renderContentType = (type, data) => {
-    const dataEvent = getEventData()
-    let filter = []
-
-    if (dataEvent.type === "agenda") {
-      type = dataEvent.type
-      data = dataEvent.data
-    } else {
-      filter = dataEvent.data
+    if (dataEvent) {
+      console.log(dataEvent);
+      type = dataEvent.type;
+    data = dataEvent.data;
+    console.log(data);
     }
+    
 
     switch (type) {
       case "tabs":
         return tabComponent(data)
       case "list":
-        return listComponent(data, filter)
+        return listComponent(data)
       case "agenda":
         return agendaComponent(data)
       default:
