@@ -16,6 +16,7 @@
     }
 
     &_body{
+        position: relative;
         &__title{
             display: flex;
             flex-direction: column;

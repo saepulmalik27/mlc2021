@@ -74,10 +74,8 @@ const EventList = ({ title, description, contentType, contents, section }) => {
 
   const renderContentType = (type, data) => {
     if (dataEvent) {
-      console.log(dataEvent);
       type = dataEvent.type;
     data = dataEvent.data;
-    console.log(data);
     }
     
 

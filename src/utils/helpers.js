@@ -74,6 +74,9 @@ export const fetchAgenda = async nip => {
 
 export const getEventData = async () => {
   const user = getFromLocalStorage()
+  if (!user) {
+      return null
+  }
   const events = await fetchAgenda(user.nip)
   if (events) {
     switch (events.type) {
