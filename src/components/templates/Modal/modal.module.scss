@@ -32,18 +32,24 @@
         width: 50rem;
         height: auto;
         max-height: 90vh;
-        overflow: auto;
+   
         z-index: 1000;
         animation: opacityAnimation .2s ease-in-out;
-        // text-align: center;
         padding: 3rem 3rem 4rem 3rem;
         border-radius: 8px;
+
+        &_content{
+            position: relative;
+            height: inherit;
+            max-height: 80vh;
+            overflow: auto;
+        }
 
         &.small{
             width: 30rem;
         }
         &.large{
-            width: 91.2rem;
+            width: 90vw;
             @include media-max-width($tablet-breakpoint) {
                 width: calc(100vw - 4rem);
                 padding: 2rem 2rem 3rem 2rem;

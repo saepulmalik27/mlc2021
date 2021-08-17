@@ -97,7 +97,7 @@ const Login = ({closed, banner}) => {
 
   const renderFaq = () => {
      const faq = dataJson.sections.find(val => val.section.name === 'faq')
-     faq.section.className = styles.padding_0
+    
 
      return <Faq {...faq}/>
   }

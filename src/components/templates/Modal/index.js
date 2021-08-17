@@ -24,8 +24,9 @@ const Modal = props => {
 
       <div className={cx(styles.modal__wraper, modal_size)} style={style}>
       {closed ?<div className={styles.modal__close} onClick={closed}><Illu src={close}/></div>  : null }
-
+        <div className={styles.modal__wraper_content}>
         {children}
+        </div>
       </div>
     </div>
   )
