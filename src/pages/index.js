@@ -64,6 +64,12 @@ const IndexPage = () => {
           <Seo title="Home" />
           <Hero user={user}/>
           {dataJson.sections.map((val, key) => {
+            if (user && (val.section.name === 'kompetisi')) {
+              val.content[0].content.cta[0].url = val.content[0].content.cta[0].url.replace(`{{nip}}`,user.nip)
+              val.content[0].content.cta[0].url = val.content[0].content.cta[0].url.replace(`{{name}}`,user.name)
+              val.content[0].content.cta[0].url = val.content[0].content.cta[0].url.replace(`{{email}}`,user.email)
+              val.content[0].content.cta[0].url = val.content[0].content.cta[0].url.replace(`{{region}}`,user.region)
+            }
             return renderSections(val, key)
           })}
         </Layout>

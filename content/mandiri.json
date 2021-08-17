@@ -209,7 +209,7 @@
             "illu":{"src" : "https://ik.imagekit.io/saepulmalik/mlc21/competition_1_mlc21_l453P1tHi.png?updatedAt=1628701412847"},
             "description" : "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo <br><br> <a href='https://google.com' target='_blank'>Unduh Panduan</a></p>",
             "cta": [
-              {"title" : "Submit", "url" : "https://google.com"}
+              {"title" : "Submit", "url" : "https://form.typeform.com/to/SvxJaXov?nama={{name}}&nip={{nip}}&email={{email}}&region={{region}}"}
             ],
             "align" :"center"
           },
