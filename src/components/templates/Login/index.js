@@ -80,11 +80,11 @@ const Login = ({ closed, banner }) => {
       setEmail("")
       if (!user) {
         setErrorNpk(
-          "NIP tidak terdaftar, silahkan hubungi Help Desk melalui button di kanan bawah."
+          "NIP tidak terdaftar, silakan hubungi kami melalui tombol di kanan bawah"
         )
       }
       if (!email) {
-        setErrorEmail("Masukan Email Pribadi Anda")
+        setErrorEmail("Masukan alamat email pribadi Anda")
       }
       setsuccess("")
       setLoading(false)
