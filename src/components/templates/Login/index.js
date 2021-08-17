@@ -15,6 +15,8 @@ import PropTypes from 'prop-types'
 import { navigate } from "gatsby"
 import { fetchUser } from "src/utils/helpers"
 import Modal from 'components/templates/Modal'
+import Faq from 'src/sections/Faq'
+import dataJson from "content/mandiri.json"
 
 
 
@@ -81,7 +83,7 @@ const Login = ({closed, banner}) => {
         setErrorNpk("NIP tidak terdaftar, silahkan hubungi Help Desk melalui button di kanan bawah.")        
       }
       if (!email) {
-        setErrorEmail("Email tidak Terisi")
+        setErrorEmail("Masukan Email Pribadi Anda")
       }
       setsuccess("")
     }
@@ -91,6 +93,10 @@ const Login = ({closed, banner}) => {
     data.email = email;
     saveToLocalStorage(data)
     navigate("/")
+  }
+
+  const renderFaq = () => {
+
   }
 
   return (
@@ -108,12 +114,12 @@ const Login = ({closed, banner}) => {
       <div className={styles.login_body}>
         <div className={styles.login_body__title}>
           <h4 className={Typo.lh_170}>Login</h4>
-          <p>Masukkan 5 Digit NPK dan Email Pribadi</p>
+          <p>Masukan NIP yang terdaftar dan email pribadi Anda.</p>
         </div>
         <div className={styles.login_body__form}>
        
           <Input
-            label="NPK"
+            label="NIP"
             icon={
               iconlist
             }
