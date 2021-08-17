@@ -9,7 +9,7 @@ const About = ({ title, description, align, section }) => {
   return ( 
     <Section id={section.name} {...section}>
        <Card title={title} description={description}  align={align} />
-       <EmbedVideo url={"https://www.youtube.com/embed/e3KrVREaKbA"} />
+       <EmbedVideo url={"https://www.youtube.com/embed/soGda6vUjwA"} />
 
        
     </Section>

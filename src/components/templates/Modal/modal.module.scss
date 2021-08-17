@@ -36,6 +36,13 @@
         padding: 3rem 3rem 4rem 3rem;
         border-radius: 8px;
 
+        &.small{
+            width: 30rem;
+        }
+        &.large{
+            width: 95rem;
+        }
+
         @include media-max-width($mobile-breakpoint) {
             width: calc(100vw - 4rem);
             padding: 2rem 2rem 3rem 2rem;

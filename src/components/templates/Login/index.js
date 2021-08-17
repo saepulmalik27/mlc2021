@@ -14,6 +14,7 @@ import loginBanner from 'src/images/login_banner.png'
 import PropTypes from 'prop-types'
 import { navigate } from "gatsby"
 import { fetchUser } from "src/utils/helpers"
+import Modal from 'components/templates/Modal'
 
 
 
@@ -27,6 +28,7 @@ const Login = ({closed, banner}) => {
   const [errorEmail, setErrorEmail] = useState("")
   const [success, setsuccess] = useState("")
   const [user, setuser] = useState(null)
+  const [modalActive, setModalActive] = useState(true)
 
   useEffect(() => {
     getLoginData()
@@ -93,6 +95,9 @@ const Login = ({closed, banner}) => {
 
   return (
     <div className={styles.login}>
+      <Modal hide={modalActive} size="large">
+
+      </Modal>
       {banner ?<Illu
         src={
           loginBanner
@@ -146,7 +151,7 @@ const Login = ({closed, banner}) => {
         </Button>
 
         <p  className={styles.label_info}>
-        Apabila Anda memiliki Pertanyaan, silahkan klik tombol <span  style={{cursor : 'pointer'}}><strong> Disini. </strong></span> 
+        Apabila Anda memiliki Pertanyaan, silahkan klik tombol <span  style={{cursor : 'pointer'}} onClick={() => setModalActive(!modalActive)}><strong> Disini. </strong></span> 
         </p>
         
       </div>
