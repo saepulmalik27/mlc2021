@@ -2,6 +2,8 @@
 @import "src/scss/colors";
 .modal{
     color: white;
+    width: 100vh;
+    position: relative;
     &__backdrop {
         position: fixed;
         background-color: rgba( $thumbnail, .3);
@@ -29,7 +31,8 @@
         background-color: white;
         width: 50rem;
         height: auto;
-        max-height: 100vh;
+        max-height: 90vh;
+        overflow: auto;
         z-index: 1000;
         animation: opacityAnimation .2s ease-in-out;
         text-align: center;
@@ -40,7 +43,11 @@
             width: 30rem;
         }
         &.large{
-            width: 95rem;
+            width: 91.2rem;
+            @include media-max-width($tablet-breakpoint) {
+                width: calc(100vw - 4rem);
+                padding: 2rem 2rem 3rem 2rem;
+            }
         }
 
         @include media-max-width($mobile-breakpoint) {

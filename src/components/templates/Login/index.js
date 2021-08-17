@@ -30,7 +30,7 @@ const Login = ({closed, banner}) => {
   const [errorEmail, setErrorEmail] = useState("")
   const [success, setsuccess] = useState("")
   const [user, setuser] = useState(null)
-  const [modalActive, setModalActive] = useState(true)
+  const [modalActive, setModalActive] = useState(false)
 
   useEffect(() => {
     getLoginData()
@@ -96,13 +96,16 @@ const Login = ({closed, banner}) => {
   }
 
   const renderFaq = () => {
+     const faq = dataJson.sections.find(val => val.section.name === 'faq')
+     faq.section.className = styles.padding_0
 
+     return <Faq {...faq}/>
   }
 
   return (
     <div className={styles.login}>
-      <Modal hide={modalActive} size="large">
-
+      <Modal hide={!modalActive} size="large" closed={() => setModalActive(false)}>
+        {renderFaq()}
       </Modal>
       {banner ?<Illu
         src={
@@ -136,14 +139,7 @@ const Login = ({closed, banner}) => {
             onChange={e => handleChange(e, "email")}
           />
           {errorEmail ? <p className={styles.label_error}> <img src={iconwarning} alt="" /> {errorEmail}</p> : null}
-          {/* <br />
-          <Input
-            label="Nama"
-            icon={iconuser}
-            value={name}
-            onChange={e => handleChange(e, "name")}
-            disabled={true}
-          /> */}
+         
         </div>
         
         <Button
