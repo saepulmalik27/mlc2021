@@ -164,7 +164,7 @@ const Login = ({ closed, banner }) => {
             </Button>
     
             <p className={styles.label_info}>
-              Apabila Anda memiliki Pertanyaan, silahkan klik tombol{" "}
+            Ada kendala? Cek jawaban dari pertanyaan yang sering diajukan 
               <span
               className={Typo.primary}
                 style={{ cursor: "pointer" }}
