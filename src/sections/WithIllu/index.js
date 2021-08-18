@@ -26,7 +26,7 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
     let data = {
       "email" : user.email,
       "dob" : null,
-      "name" : `${user.name} - (${user.NPK})`,
+      "name" : `${user.name}  ${user.nip || ""}`,
       "gender" : null
     }
 
