@@ -28,25 +28,6 @@ const EventList = ({ title, description, contentType, contents, section }) => {
 
   const listComponent = (data) =>
     data.map((list, key) => {
-      // if (filtered) {
-      //   console.log(filtered, "filtered")
-      //   console.log(list.list_content, "content")
-      //   return (
-      //     <Carousel title={list.title} key={key}>
-      //       {list.list_content.filter((val) => {
-      //           console.log(val.event.code);
-      //           return (
-      //             filtered.find(fil => {
-      //               return fil.code === val.event.code
-      //             }) != undefined
-      //           )
-      //         })
-      //         .map((content, id) => {
-      //           return <CardEvent {...content} direction={"column"} key={id} />
-      //         })}
-      //     </Carousel>
-      //   )
-      // } else {
         return (
           <Carousel title={list.title} key={key}>
             {list.list_content.map((content, id) => {
@@ -54,7 +35,6 @@ const EventList = ({ title, description, contentType, contents, section }) => {
             })}
           </Carousel>
         )
-      // }
     })
 
   const agendaComponent = data => (
@@ -65,7 +45,7 @@ const EventList = ({ title, description, contentType, contents, section }) => {
             <p>
               <strong>{agenda.title}</strong>
             </p>
-            <p>{agenda.schedule}</p>
+            <p>{agenda.description}</p>
           </div>
         )
       })}
