@@ -47,7 +47,7 @@ const WithIllu = ({title, description, src, reverse, cta, section, term, user}) 
       <Card title={title} description={description} cta={cta} term={term} handleTerm={e => {handleTerm(e)}} />
       <Illu src={src} className={styles.withillu_illu} imgClass={styles.withillu_illu__img} />
       { term ?  <Modal hide={!showTerm} closed={() => {setshowTerm(false)} } >
-        <Card className={styles.withillu__modal} title={term.title} handleAction={e => {handleAction(e)}} description={term.description} cta={term.cta} />
+        <Card className={styles.withillu__modal} title={term.title} handleAction={e => {handleAction(e)}} description={term.description} align={"center"} cta={term.cta} />
       </Modal>  : null}
     </Section>
   )
