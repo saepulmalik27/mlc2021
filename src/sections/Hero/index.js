@@ -8,7 +8,7 @@ const Hero = (props) => {
     return (
         <Section className={styles.custome_section} {...props}>
         <div className={styles.hero}>
-            <p>{props.user?.name.split(" ")[0] || ""} {props.user?.name.split(" ")[1] || ""}  </p>
+            <p>Hi, {props.user?.name.split(" ")[0] || ""} {props.user?.name.split(" ")[1] || ""}  </p>
             <Illu src={location}/>
             <p>{props.user?.region || ""}</p>
         </div>
