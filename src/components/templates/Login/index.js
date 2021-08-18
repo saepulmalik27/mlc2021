@@ -166,10 +166,11 @@ const Login = ({ closed, banner }) => {
             <p className={styles.label_info}>
               Apabila Anda memiliki Pertanyaan, silahkan klik tombol{" "}
               <span
+              className={Typo.primary}
                 style={{ cursor: "pointer" }}
                 onClick={() => setModalActive(!modalActive)}
               >
-                <strong> Disini. </strong>
+                <strong> di sini. </strong>
               </span>
             </p>
           </div>
