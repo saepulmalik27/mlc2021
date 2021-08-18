@@ -19,7 +19,14 @@
         padding: 2rem 2rem;
         display: grid;
         grid-gap: 2rem;
-        grid-template-columns: repeat( auto-fit, minmax(15rem, 1fr) );
+        grid-template-columns: repeat( auto-fit, minmax(19rem, 1fr) );
+    }
+
+    @include media-max-width($s-mobile-breakpoint) {
+        padding: 2rem 2rem;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat( auto-fit, minmax(18rem, 1fr) );
     }
 
 
