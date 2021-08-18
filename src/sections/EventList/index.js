@@ -12,7 +12,7 @@ const EventList = ({ title, description, contentType, contents, section }) => {
   const [dataEvent, setDataEvent] = useState({})
   useEffect(() => {
     getEventData().then(data => setDataEvent(data))
-  }, [dataEvent])
+  }, [contents])
   
   const tabComponent = data => (
     <Tabs initialTab={data?.initialTab}>
@@ -53,6 +53,7 @@ const EventList = ({ title, description, contentType, contents, section }) => {
   )
 
   const renderContentType = (type, data) => {
+    // getEventData().then(data => setDataEvent(data))
     if (dataEvent) {
       type = dataEvent.type;
     data = dataEvent.data;
