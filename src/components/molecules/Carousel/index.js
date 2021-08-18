@@ -21,18 +21,25 @@ const Carousel = ({ children, className, title }) => {
       <div className={cx(styles.carousel, className)} ref={ref}>
         {children}
       </div>
-      <div
+      {
+        children.length > 1 ?  <div
         className={styles.navigation__left}
         onClick={() => scroll(-200)}
       >
         <img src={arrow_left} alt="" />
       </div>
-      <div
+       : null
+      }
+
+      {children.length > 1 ? 
+        <div
         className={styles.navigation__right}
         onClick={() => scroll(200)}
       >
         <img src={arrow_right} alt="" />
-      </div>
+      </div> : null
+      }
+     
       </div>
       
     </div>
