@@ -29,7 +29,10 @@
     {
       "section" : {
         "name" : "tentang",
-        "component" : "About"
+        "component" : "About",
+        "style" : {
+          "background" : "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
+        }
       },
       "align" : "center",
       "title" : {
@@ -111,7 +114,10 @@
     {
       "section": {
         "name": "kontenpembelajaran",
-        "component": "WithIllu"
+        "component": "WithIllu",
+        "style" : {
+          "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
+        }
       },
       "title": {
         "type": "text",
@@ -187,7 +193,10 @@
     {
       "section": {
         "name": "kompetisi",
-        "component": "ContentIllu"
+        "component": "ContentIllu",
+        "style" : {
+          "background" : "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
+        }
       },
       "title": {
         "type": "text",
@@ -241,7 +250,10 @@
     {
       "section": {
         "name": "fotovirtual",
-        "component": "ContentIllu"
+        "component": "ContentIllu",
+        "style" : {
+          "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
+        }
       },
       "title": {
         "type": "text",
