@@ -125,7 +125,7 @@
           "title": "Lihat Semua",
           "term": true,
           "login": true,
-          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
+          "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
           "id": "plw_individual_learning_btn"
         }
       ],
@@ -139,7 +139,7 @@
           {
             "title": "Setuju",
             "action": true,
-            "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
+            "url": "https://member.inspigo.id/home/corporate/mandiri?refresh={{token}}",
             "id": "plw_individual_learning_term"
           }
         ]
@@ -164,7 +164,7 @@
           "title": "Selengkapnya",
           "term": true,
           "login": true,
-          "url": "https://wapi.inspigo.id/client-token/login/TC52rZWu5ASQZeYW9GigEvkGK2kUhH",
+          "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
           "id": "plw_individual_learning_btn"
         }
       ],
@@ -178,7 +178,7 @@
           {
             "title": "Setuju",
             "action": true,
-            "url": "https://member.inspigo.id/home/corporate/permatalearningcarnival?refresh={{token}}",
+            "url": "https://member.inspigo.id/home/corporate-dashboard/mandiri?refresh={{token}}",
             "id": "plw_individual_learning_term"
           }
         ]

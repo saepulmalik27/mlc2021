@@ -5,6 +5,7 @@
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
+    padding: 10%;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -22,6 +23,7 @@
     }
 
     @include media-max-width($mobile-breakpoint) {
+        padding: 3%;
         width: 5rem;
         height: 5rem;
     }
