@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import * as styles from "./helpdesk.module.scss"
-import helpdesk from 'src/images/icons/helpdesk.svg'
+import helpdesk from 'src/images/icons/bantuan.svg'
 import Illu from 'components/molecules/Illu'
 
 
