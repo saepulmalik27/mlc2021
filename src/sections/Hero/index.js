@@ -21,7 +21,7 @@ const Hero = props => {
           </div>
           
         </div>
-        <p style={{color : "#173A70", cursor : "pointer"}} onClick={() => removeLocalStorage()}>Logout</p>
+        <p style={{color : "#173A70", cursor : "pointer"}} onClick={() => removeLocalStorage()}>Keluar</p>
       </div>
     </Section>
   )

@@ -121,7 +121,7 @@ const Login = ({ closed, banner }) => {
           <div className={styles.login_body}>
             <div className={styles.login_body__title}>
               <h4 className={Typo.lh_170}>Masuk</h4>
-              <p>Masukan NIP yang terdaftar dan email pribadi Anda.</p>
+              <p>Masukkan NIP yang terdaftar dan email pribadi Anda.</p>
             </div>
             <div className={styles.login_body__form}>
               <Input
