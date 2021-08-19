@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Mandiri Learning Carnival`,
     description: `Mandiri Learning Carnival 2021`,
-    image: `https://cdn.inspigo.id/public/illu/logo_mlc.png`,
+    image: `https://cdn.inspigo.id/public/Illu/logo_mlc.png`,
     author: `Inspigo Team`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-          id: "GTM-M7PSV69",
+          id: "GTM-M7PSV69", 
           includeInDevelopment: false,
           routeChangeEventName: "route-change"
       }

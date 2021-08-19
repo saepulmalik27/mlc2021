@@ -47,9 +47,9 @@
       "title": {
         "type": "text",
         "content": "Tentang Mandiri Learning Carnival",
-        "style": "blue"
+        "style": "white"
       },
-      "description": "<p style='color : #173A70' >Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021. Ikuti seluruh acara yang ada dan asah dirimu!</p>"
+      "description": "<p style='color : white' >Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021. Ikuti seluruh acara yang ada dan asah dirimu!</p>"
     },
     {
       "section": {
@@ -219,10 +219,10 @@
       "title": {
         "type": "text",
         "content": "Kompetisi",
-        "style": "blue"
+        "style": "white"
       },
       "subtitle": null,
-      "description": "<p style='color : #173A70'>Tantang dirimu dan ikuti kompetisi berikut! Asah keahlian dan menangkan hadiah menarik!<p/>",
+      "description": "<p style='color : white'>Tantang dirimu dan ikuti kompetisi berikut! Asah keahlian dan menangkan hadiah menarik!<p/>",
       "content": [
         {
           "type": "card",
@@ -306,7 +306,7 @@
       "content": [
         {
           "type": "illu",
-          "content": "https://cdn.inspigo.id/public/Illu/frame_photobooth_1.png",
+          "content": "https://cdn.inspigo.id/public/Illu/frame_photobootj_3.png",
           "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
         },
         {

@@ -50,6 +50,14 @@ export const getFromLocalStorage = () => {
   return item
 }
 
+export const removeLocalStorage = () => {
+  const isLogin = localStorage.getItem("loginData")
+  if (isLogin) {
+  	localStorage.removeItem("loginData")
+  }
+  window.location.reload()
+}
+
 export const fetchAgenda = async nip => {
   try {
     const response = await fetch(
