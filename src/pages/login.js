@@ -12,7 +12,7 @@ const login = () => {
   return (
     <>
       <Seo title="Login" />
-      <div className={styles.login}>
+      <main className={styles.login}>
         <Section className={styles.login_container}>
           <Card
             title={{
@@ -36,7 +36,7 @@ const login = () => {
 
           
         </Section>
-      </div>
+      </main>
     </>
   )
 }
