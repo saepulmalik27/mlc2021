@@ -15,8 +15,11 @@ const Hero = props => {
             Hi, {props.user?.name.split(" ")[0] || ""}{" "}
             {props.user?.name.split(" ")[1] || ""}{" "}
           </p>
+          <div style={{display : "flex", justifyContent : "center", alignItems : "center"}}>
           <Illu src={location} />
           <p>{props.user?.region || ""}</p>
+          </div>
+          
         </div>
         <p style={{color : "#173A70", cursor : "pointer"}} onClick={() => removeLocalStorage()}>Logout</p>
       </div>
