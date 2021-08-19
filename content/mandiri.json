@@ -20,10 +20,10 @@
       },
       "title": {
         "type": "image",
-        "content": "https://cdn.inspigo.id/public/Illu/logo_mlc.png"
+        "content": "https://cdn.inspigo.id/public/mlc2021/Illu/logo_mlc.png"
       },
-      "description": "<p style='color : #173A70' > #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://cdn.inspigo.id/public/Icon/instagram.svg'>  <a href='https://www.instagram.com/lifeatmug/?hl=en' target='_blank'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://cdn.inspigo.id/public/Icon/facebook.svg'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr' target='_blank'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'>  </p>",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc21/hero_section_JQ20CO8C5.png?updatedAt=1629373826491",
+      "description": "<p style='color : #173A70' > #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/instagram.svg'>  <a href='https://www.instagram.com/lifeatmug/?hl=en' target='_blank'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/facebook.svg'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr' target='_blank'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'>  </p>",
+      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/hero_section_2.png",
       "cta": []
     },
     {
@@ -69,7 +69,7 @@
           "title": "",
           "list_content": [
             {
-              "src": "https://cdn.inspigo.id/public/event/event_mlc_190821_3.jpg",
+              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
               "event": {
                 "code": "R2DA",
                 "title": "Data Analytic",
@@ -84,7 +84,7 @@
               ]
             },
             {
-              "src": "https://cdn.inspigo.id/public/event/event_mlc_190821_3.jpg",
+              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
               "event": {
                 "code": "R2DW",
                 "title": "Data Wrangling",
@@ -99,7 +99,7 @@
               ]
             },
             {
-              "src": "https://cdn.inspigo.id/public/event/event_mlc_190821_3.jpg",
+              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
               "event": {
                 "code": "R2BD",
                 "title": "Big Data",
@@ -131,7 +131,7 @@
         "style": "blue"
       },
       "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio, video dan rangkuman kelas yang dikemas dalam ilustrasi menarik! </p> ",
-      "src": "https://cdn.inspigo.id/public/Illu/konten_pembelajaran.png",
+      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/konten_pembelajaran.png",
       "cta": [
         {
           "title": "Lihat Semua",
@@ -170,7 +170,7 @@
         "style": "blue"
       },
       "description": "<p> Ayo capai peringkat teratas dan menangkan hadiah menarik dengan cara menyelesaikan seluruh konten pembelajaran yang ada! Kamu dapat mengecek peringkat 10 besar di halaman ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
-      "src": "https://cdn.inspigo.id/public/Illu/statistik_pembelajaran.png",
+      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/statistik_pembelajaran.png",
       "cta": [
         {
           "title": "Selengkapnya",
@@ -240,7 +240,7 @@
               "padding": "2rem"
             },
             "illu": {
-              "src": "https://cdn.inspigo.id/public/Icon/audio Story.svg"
+              "src": "https://cdn.inspigo.id/public/mlc2021/Icon/audio Story.svg"
             },
             "description": "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo <br><br> <a href='https://drive.google.com/file/d/1G3ccA8cZPpIXbmbwASREIsmbp5asu9xp/view?usp=sharing' target='_blank'>Unduh Panduan</a></p>",
             "cta": [
@@ -276,7 +276,7 @@
         "style": "blue"
       },
       "description": "<p> Ayo unduh latar virtual ini dan jangan lupa untuk memakainya selama acara Mandiri Learning Carnival 2021</p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc21/virtual_background_200821_r1LrTVaaq.jpg?updatedAt=1629374341557",
+      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/virtual_background.png",
       "reverse": false,
       "cta": [
         {
@@ -306,12 +306,12 @@
       "content": [
         {
           "type": "illu",
-          "content": "https://cdn.inspigo.id/public/Illu/frame_photobootj_3.png",
+          "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobootj_3.png",
           "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
         },
         {
           "type": "illu",
-          "content": "https://cdn.inspigo.id/public/Illu/frame_photobooth_1.png",
+          "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobooth_1.png",
           "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
         }
       ],

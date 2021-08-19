@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Mandiri Learning Carnival`,
     description: `Mandiri Learning Carnival 2021`,
-    image: `https://cdn.inspigo.id/public/Illu/logo_mlc.png`,
+    image: `https://cdn.inspigo.id/public/mlc2021/Illu/logo_mlc.png`,
     author: `Inspigo Team`,
   },
   plugins: [
