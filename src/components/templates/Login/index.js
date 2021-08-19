@@ -114,7 +114,7 @@ const Login = ({ closed, banner }) => {
             {renderFaq()}
           </Modal>
           {loading ? <Modal style={{backgroundColor : "transparent", display : "flex", justifyContent : "center", alignItems : "center" }}>
-        <Spinner size="300px" color="#29AAE3"/>
+        <Spinner size="80px" color="#29AAE3"/>
       </Modal> : null}
           {banner ? <Illu src={loginBanner} className={styles.login_illu} /> : null}
     

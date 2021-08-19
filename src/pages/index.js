@@ -76,7 +76,7 @@ const IndexPage = () => {
       )
     default:
       return <Modal style={{backgroundColor : "transparent", display : "flex", justifyContent : "center", alignItems : "center" }}>
-        <Spinner size="300px" color="#29AAE3"/>
+        <Spinner size="120px" color="#29AAE3"/>
       </Modal>
   }
   
