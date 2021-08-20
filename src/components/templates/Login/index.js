@@ -16,6 +16,11 @@ import Modal from "components/templates/Modal"
 import Faq from "src/sections/Faq"
 import dataJson from "content/mandiri.json"
 import Spinner from "components/atoms/Spinner"
+import { isValidNIPMandiri, validateEmail } from "src/utils/validation"
+
+
+
+
 
 const Login = ({ closed, banner }) => {
   const [isLogin, setisLogin] = useState(false)
@@ -58,6 +63,40 @@ const Login = ({ closed, banner }) => {
         break
       default:
         break
+    }
+  }
+
+  const inputValidation = (npk) => {
+    if (npk === '' && email === ''){
+      setErrorNpk("NIP tidak boleh kosong")
+      setErrorEmail("Masukan alamat email pribadi Anda")
+      setsuccess('')
+    }else if (npk === ''){
+      setErrorEmail('')
+      setErrorNpk("NIP tidak boleh kosong")
+      setsuccess('')
+    }else if (email === ''){
+      setErrorNpk('')
+      setErrorEmail("Masukan alamat email pribadi Anda")
+      setsuccess('')
+    }
+    else if (isValidNIPMandiri(npk) && validateEmail(email)) {
+      setErrorNpk("")
+      setErrorEmail("")
+      login(npk)
+    }else if(!isValidNIPMandiri(npk)){
+      setsuccess('')
+      setErrorEmail("")
+      setErrorNpk("NIP tidak valid")
+    } else if(!validateEmail(email)){
+      setsuccess('')
+      setErrorEmail("Email tidak valid")
+      setErrorNpk("")
+    }
+     else{
+      setsuccess('')
+      setErrorEmail("Email tidak valid")
+      setErrorNpk("NIP tidak valid")
     }
   }
 
@@ -157,7 +196,7 @@ const Login = ({ closed, banner }) => {
               size={"large"}
               type={ loading ? "primary" :"secondary"}
               cta={() => {
-                login(NPK)
+                inputValidation(NPK)
               }}
             >
               Masuk
