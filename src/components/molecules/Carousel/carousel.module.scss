@@ -48,12 +48,10 @@
     align-items: stretch;
     scroll-behavior: smooth;
     position: relative;
-    &>div:first-of-type{
-        margin-left: 0;
+    &>div{
+        margin: 0 auto;
     }
-    &>div:last-of-type{
-        margin-right: 0;
-    }
+   
 
   
 }
