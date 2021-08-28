@@ -44,14 +44,20 @@
     overflow: hidden;
     overflow-x: auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: stretch;
     scroll-behavior: smooth;
     position: relative;
-    &>div{
-        margin: 0 auto;
-    }
-   
+  
+  & > div {
+      margin: 1rem auto;
+  }
+    // &>div:first-of-type{
+    //     margin: 0 auto;
+    // }
+    // &>div:last-of-type{
+    //     margin-right: 0;
+    // }
 
   
 }
