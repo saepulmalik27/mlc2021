@@ -1,3 +1,5 @@
+@import "src/scss/mixins";
+@import "src/scss/colors";
 .header_container{
     display: flex;
     flex: row;
@@ -48,16 +50,21 @@
     align-items: stretch;
     scroll-behavior: smooth;
     position: relative;
+
+    &.center{
+        justify-content: center;
+
+        @include media-max-width($mobile-breakpoint) {
+            justify-content: flex-start;
+          }
+    }
   
-  & > div {
-      margin: 1rem auto;
-  }
-    // &>div:first-of-type{
-    //     margin: 0 auto;
-    // }
-    // &>div:last-of-type{
-    //     margin-right: 0;
-    // }
+    &>div:first-of-type{
+        margin-left: 0;
+    }
+    &>div:last-of-type{
+        margin-right: 0;
+    }
 
   
 }

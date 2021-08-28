@@ -18,7 +18,7 @@ const Carousel = ({ children, className, title }) => {
       </div>
       <div className={styles.body_container}>
      
-      <div className={cx(styles.carousel, className)} ref={ref}>
+      <div className={cx(styles.carousel, children.length < 3 ? styles.center : '' , className)} ref={ref}>
         {children}
       </div>
       {
