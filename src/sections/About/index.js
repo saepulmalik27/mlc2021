@@ -5,11 +5,11 @@ import EmbedVideo from "components/molecules/EmbedVideo"
 
 
 
-const About = ({ title, description, align, section }) => {
+const About = ({ title, description, align, section, video }) => {
   return ( 
     <Section id={section.name} {...section}>
        <Card title={title} description={description}  align={align} />
-       <EmbedVideo url={"https://www.youtube.com/embed/qhpgb-6Oyk8"} />
+       <EmbedVideo url={`https://www.youtube.com/embed/${video}`} />
 
        
     </Section>
