@@ -1,368 +1,369 @@
 {
-  "navigation": [
-    { "title": "Tentang", "id": "tentang" },
-    { "title": "Jadwal Saya", "id": "jadwalsaya" },
-    { "title": "Konten Pembelajaran", "id": "kontenpembelajaran" },
-    { "title": "Statistik Pembelajaran", "id": "statistikpembelajaran" },
-    { "title": "Kompetisi", "id": "kompetisi" },
-    { "title": "Latar Virtual", "id": "latarvirtual" },
-    { "title": "Foto Virtual", "id": "fotovirtual" },
-    { "title": "FAQ", "id": "faq" }
-  ],
-  "sections": [
-    {
-      "section": {
-        "name": "hero",
-        "component": "WithIllu",
-        "style": {
-          "paddingTop": "0"
-        }
-      },
-      "title": {
-        "type": "image",
-        "content": "https://cdn.inspigo.id/public/mlc2021/Illu/logo_mlc.png"
-      },
-      "description": "<p style='color : #173A70' > #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/instagram.svg'>  <a href='https://www.instagram.com/lifeatmug/?hl=en' target='_blank'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/facebook.svg'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr' target='_blank'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'>  </p>",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc_region_6/hero_region_6_v2_JmiQ-gGc9W.jpg?updatedAt=1630909113822",
-      "cta": []
-    },
-    {
-      "section": {
-        "name": "tentang",
-        "component": "About",
-        "style": {
-          "background": "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
+    "navigation": [
+      { "title": "Tentang", "id": "tentang" },
+      { "title": "Jadwal Saya", "id": "jadwalsaya" },
+      { "title": "Konten Pembelajaran", "id": "kontenpembelajaran" },
+      { "title": "Statistik Pembelajaran", "id": "statistikpembelajaran" },
+      { "title": "Kompetisi", "id": "kompetisi" },
+      { "title": "Latar Virtual", "id": "latarvirtual" },
+      { "title": "Foto Virtual", "id": "fotovirtual" },
+      { "title": "FAQ", "id": "faq" }
+    ],
+    "sections": [
+      {
+        "section": {
+          "name": "hero",
+          "component": "WithIllu",
+          "style": {
+            "paddingTop": "0"
+          }
         },
-        "decoration": [
+        "title": {
+          "type": "image",
+          "content": "https://cdn.inspigo.id/public/mlc2021/Illu/logo_mlc.png"
+        },
+        "description": "<p style='color : #173A70' > #MandirianPembelajarTangguh <br /> <br /><div style='display: flex; align-items: center;'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/instagram.svg'>  <a href='https://www.instagram.com/lifeatmug/?hl=en' target='_blank'>&nbsp; @lifeatMUG</a></div> <br/> <div style='display: flex; align-items: center'> <img src='https://cdn.inspigo.id/public/mlc2021/Icon/facebook.svg'>  <a href='https://web.facebook.com/lifeatmug/?_rdc=1&_rdr' target='_blank'>&nbsp;@lifeatMUG</a> </div> <br/> <div style='display: flex; align-items: center;'>  </p>",
+        "src": "https://ik.imagekit.io/saepulmalik/mlc_region_6/hero_region_6_v2_JmiQ-gGc9W.jpg?updatedAt=1630909113822",
+        "cta": []
+      },
+      {
+        "section": {
+          "name": "tentang",
+          "component": "About",
+          "style": {
+            "background": "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
+          },
+          "decoration": [
+            {
+              "style": {
+                "position": "absolute",
+                "top": "50%"
+              },
+              "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_1_3DjNnk0CJfd.png?updatedAt=1629206944597"
+            }
+          ]
+        },
+        "align": "center",
+        "title": {
+          "type": "text",
+          "content": "Tentang Mandiri Learning Carnival",
+          "style": "white"
+        },
+        "video" : "qJnCK7A41Vg",
+        "description": "<p style='color : white' >Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021. Ikuti seluruh acara yang ada dan asah dirimu!</p>"
+      },
+      {
+        "section": {
+          "name": "jadwalsaya",
+          "component": "EventList",
+          "decoration": []
+        },
+        "title": {
+          "type": "text",
+          "content": "Jadwal Saya",
+          "style": "blue"
+        },
+        "description": "<p style='color : #173A70'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Kelas akan dibuka setengah jam sebelum acara dimulai.</p>",
+        "contentType": "list",
+        "contents": [
           {
-            "style": {
-              "position": "absolute",
-              "top": "50%"
-            },
-            "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_1_3DjNnk0CJfd.png?updatedAt=1629206944597"
+            "title": "",
+            "list_content": [
+              {
+                "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
+                "event": {
+                  "code": "R2DA",
+                  "title": "Data Analytic",
+                  "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+                },
+                "cta": [
+                  {
+                    "title": "Masuk",
+                    "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
+                "event": {
+                  "code": "R2DW",
+                  "title": "Data Wrangling",
+                  "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+                },
+                "cta": [
+                  {
+                    "title": "Masuk",
+                    "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
+                "event": {
+                  "code": "R2BD",
+                  "title": "Big Data",
+                  "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
+                },
+                "cta": [
+                  {
+                    "title": "Masuk",
+                    "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
-      "align": "center",
-      "title": {
-        "type": "text",
-        "content": "Tentang Mandiri Learning Carnival",
-        "style": "white"
-      },
-      "video" : "qJnCK7A41Vg",
-      "description": "<p style='color : white' >Mandiri Learning Carnival merupakan rangkaian sesi kelas pembelajaran dan talk show dari beragam pembicara yang inspiratif dan kreatif. Kegiatan ini akan diselenggarakan pada periode bulan Juli – November 2021. Ikuti seluruh acara yang ada dan asah dirimu!</p>"
-    },
-    {
-      "section": {
-        "name": "jadwalsaya",
-        "component": "EventList",
-        "decoration": []
-      },
-      "title": {
-        "type": "text",
-        "content": "Jadwal Saya",
-        "style": "blue"
-      },
-      "description": "<p style='color : #173A70'>Jadwal dan detail acara webinar Mandiri Learning Carnival dapat dilihat di sini. Cek dan catat tanggalnya agar tidak ketinggalan! Kelas akan dibuka setengah jam sebelum acara dimulai.</p>",
-      "contentType": "list",
-      "contents": [
-        {
-          "title": "",
-          "list_content": [
+      {
+        "section": {
+          "name": "kontenpembelajaran",
+          "component": "WithIllu",
+          "style": {
+            "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
+          }
+        },
+        "title": {
+          "type": "text",
+          "content": "Konten Pembelajaran",
+          "style": "blue"
+        },
+        "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio, video dan rangkuman kelas yang dikemas dalam ilustrasi menarik! </p> ",
+        "src": "https://cdn.inspigo.id/public/mlc2021/Illu/konten_pembelajaran.png",
+        "cta": [
+          {
+            "title": "Lihat Semua",
+            "term": true,
+            "login": true,
+            "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
+            "id": "plw_individual_learning_btn"
+          }
+        ],
+        "term": {
+          "title": {
+            "type": "text",
+            "content": "Terms & Conditions"
+          },
+          "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
+          "cta": [
             {
-              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
-              "event": {
-                "code": "R2DA",
-                "title": "Data Analytic",
-                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
-              },
-              "cta": [
-                {
-                  "title": "Masuk",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled": false
-                }
-              ]
-            },
-            {
-              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
-              "event": {
-                "code": "R2DW",
-                "title": "Data Wrangling",
-                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
-              },
-              "cta": [
-                {
-                  "title": "Masuk",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled": false
-                }
-              ]
-            },
-            {
-              "src": "https://cdn.inspigo.id/public/mlc2021/event/event_mlc_190821_3.jpg",
-              "event": {
-                "code": "R2BD",
-                "title": "Big Data",
-                "content": "<p> <b> Tanggal & Waktu </b> : <br/> 3 Agustus 2021, 09.15 -12.00 WIB <br/><br/>  <b>Speaker</b> : <br/> Chalit Tayjasanant, Edy Widjaja, Abdy Dharma Salimin</p>"
-              },
-              "cta": [
-                {
-                  "title": "Masuk",
-                  "url": "https://zoom.us/j/93209882108?pwd=aktBTjQwUFlqc1ZvWmJzOGJGRlVGUT09",
-                  "disabled": false
-                }
-              ]
+              "title": "Setuju",
+              "action": true,
+              "url": "https://member.inspigo.id/home/corporate/mandiri?refresh={{token}}",
+              "id": "plw_individual_learning_term"
             }
           ]
         }
-      ]
-    },
-    {
-      "section": {
-        "name": "kontenpembelajaran",
-        "component": "WithIllu",
-        "style": {
-          "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
-        }
       },
-      "title": {
-        "type": "text",
-        "content": "Konten Pembelajaran",
-        "style": "blue"
-      },
-      "description": "<p> Kembangkan diri kamu melalui beragam konten pembelajaran yang disajikan dalam bentuk audio, video dan rangkuman kelas yang dikemas dalam ilustrasi menarik! </p> ",
-      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/konten_pembelajaran.png",
-      "cta": [
-        {
-          "title": "Lihat Semua",
-          "term": true,
-          "login": true,
-          "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
-          "id": "plw_individual_learning_btn"
-        }
-      ],
-      "term": {
+  
+      {
+        "section": {
+          "name": "statistikpembelajaran",
+          "component": "WithIllu"
+        },
+        "reverse": true,
         "title": {
           "type": "text",
-          "content": "Terms & Conditions"
+          "content": "Statistik Pembelajaran",
+          "style": "blue"
         },
-        "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
+        "description": "<p> Ayo capai peringkat teratas dan menangkan hadiah menarik dengan cara menyelesaikan seluruh konten pembelajaran yang ada! Kamu dapat mengecek peringkat 10 besar di halaman ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
+        "src": "https://cdn.inspigo.id/public/mlc2021/Illu/statistik_pembelajaran.png",
         "cta": [
           {
-            "title": "Setuju",
-            "action": true,
-            "url": "https://member.inspigo.id/home/corporate/mandiri?refresh={{token}}",
-            "id": "plw_individual_learning_term"
+            "title": "Selengkapnya",
+            "term": true,
+            "login": true,
+            "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
+            "id": "plw_individual_learning_btn"
           }
-        ]
-      }
-    },
-
-    {
-      "section": {
-        "name": "statistikpembelajaran",
-        "component": "WithIllu"
-      },
-      "reverse": true,
-      "title": {
-        "type": "text",
-        "content": "Statistik Pembelajaran",
-        "style": "blue"
-      },
-      "description": "<p> Ayo capai peringkat teratas dan menangkan hadiah menarik dengan cara menyelesaikan seluruh konten pembelajaran yang ada! Kamu dapat mengecek peringkat 10 besar di halaman ini. <br>* Data diperbarui setiap hari Senin pukul 07.00 WIB </p> ",
-      "src": "https://cdn.inspigo.id/public/mlc2021/Illu/statistik_pembelajaran.png",
-      "cta": [
-        {
-          "title": "Selengkapnya",
-          "term": true,
-          "login": true,
-          "url": "https://wapi.inspigo.id/client-token/login/SKKO3dyOtfOhagUW21bNTfMnlqbFIp",
-          "id": "plw_individual_learning_btn"
-        }
-      ],
-      "term": {
-        "title": {
-          "type": "text",
-          "content": "Terms & Conditions"
-        },
-        "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
-        "cta": [
-          {
-            "title": "Setuju",
-            "action": true,
-            "url": "https://member.inspigo.id/home/corporate-dashboard/mandiri?refresh={{token}}",
-            "id": "plw_individual_learning_term"
-          }
-        ]
-      }
-    },
-    {
-      "section": {
-        "name": "kompetisi",
-        "component": "ContentIllu",
-        "style": {
-          "background": "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
-        },
-        "decoration": [
-          {
-            "style": {
-              "position": "absolute",
-              "top": "50%",
-              "right" : "0",
-              "transform": "rotate(180deg)"
-            },
-            "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_1_3DjNnk0CJfd.png?updatedAt=1629206944597"
-          }
-        ]
-       
-      },
-      "title": {
-        "type": "text",
-        "content": "Kompetisi",
-        "style": "white"
-      },
-      "subtitle": null,
-      "description": "<p style='color : white'>Tantang dirimu dan ikuti kompetisi berikut! Asah keahlian dan menangkan hadiah menarik!<p/>",
-      "content": [
-        {
-          "type": "card",
-          "content": {
-            "title": {
-              "type": "text",
-              "content": "Audio Story",
-              "style": "blue"
-            },
-            "style": {
-              "backgroundColor": "white",
-              "maxWidth": "50rem",
-              "boxShadow": "0px 4px 40px rgba(40, 40, 40, 0.1)",
-              "borderRadius": "16px",
-              "padding": "2rem"
-            },
-            "illu": {
-              "src": "https://cdn.inspigo.id/public/mlc2021/Icon/audio Story.svg"
-            },
-            "description": "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo <br><br> <a href='https://drive.google.com/file/d/1G3ccA8cZPpIXbmbwASREIsmbp5asu9xp/view?usp=sharing' target='_blank'>Unduh Panduan</a></p>",
-            "cta": [
-              {
-                "title": "Submit",
-                "url": "https://form.typeform.com/to/SvxJaXov?nama={{name}}&nip={{nip}}&email={{email}}&region={{region}}"
-              }
-            ],
-            "align": "center"
+        ],
+        "term": {
+          "title": {
+            "type": "text",
+            "content": "Terms & Conditions"
           },
-          "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
+          "description": "<p> Dengan mengklik “Setuju”, kamu akan otomatis terdaftar di Inspigo (learning partner dari Mandiri Learning Carnival 2021) dengan email yang telah kamu daftarkan pada acara ini.   </p> ",
+          "cta": [
+            {
+              "title": "Setuju",
+              "action": true,
+              "url": "https://member.inspigo.id/home/corporate-dashboard/mandiri?refresh={{token}}",
+              "id": "plw_individual_learning_term"
+            }
+          ]
         }
-      ],
-      "cta": []
-    },
-    {
-      "section": {
-        "name": "latarvirtual",
-        "component": "WithIllu",
-        "decoration": [
+      },
+      {
+        "section": {
+          "name": "kompetisi",
+          "component": "ContentIllu",
+          "style": {
+            "background": "linear-gradient(360deg, rgba(99, 168, 233, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #6EB0EC 0.14%, #A4D0F7 44.28%, #63A8E9 99.84%)"
+          },
+          "decoration": [
+            {
+              "style": {
+                "position": "absolute",
+                "top": "50%",
+                "right" : "0",
+                "transform": "rotate(180deg)"
+              },
+              "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_1_3DjNnk0CJfd.png?updatedAt=1629206944597"
+            }
+          ]
+         
+        },
+        "title": {
+          "type": "text",
+          "content": "Kompetisi",
+          "style": "white"
+        },
+        "subtitle": null,
+        "description": "<p style='color : white'>Tantang dirimu dan ikuti kompetisi berikut! Asah keahlian dan menangkan hadiah menarik!<p/>",
+        "content": [
           {
-            "style": {
-              "position": "absolute",
-              "bottom": "0"
+            "type": "card",
+            "content": {
+              "title": {
+                "type": "text",
+                "content": "Audio Story",
+                "style": "blue"
+              },
+              "style": {
+                "backgroundColor": "white",
+                "maxWidth": "50rem",
+                "boxShadow": "0px 4px 40px rgba(40, 40, 40, 0.1)",
+                "borderRadius": "16px",
+                "padding": "2rem"
+              },
+              "illu": {
+                "src": "https://cdn.inspigo.id/public/mlc2021/Icon/audio Story.svg"
+              },
+              "description": "<p >Ayo ceritakan inspirasi dan pengalamanmu selama mengikuti Mandiri Learning Carnival 2021! Cerita paling menarik dari setiap region akan diunggah di aplikasi Inspigo <br><br> <a href='https://drive.google.com/file/d/1G3ccA8cZPpIXbmbwASREIsmbp5asu9xp/view?usp=sharing' target='_blank'>Unduh Panduan</a></p>",
+              "cta": [
+                {
+                  "title": "Submit",
+                  "url": "https://form.typeform.com/to/SvxJaXov?nama={{name}}&nip={{nip}}&email={{email}}&region={{region}}"
+                }
+              ],
+              "align": "center"
             },
-            "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_2_XivUZC62J.png?updatedAt=1629206945002"
+            "url": "https://app.virtualbooth.me/booth/06rqMbLJ"
+          }
+        ],
+        "cta": []
+      },
+      {
+        "section": {
+          "name": "latarvirtual",
+          "component": "WithIllu",
+          "decoration": [
+            {
+              "style": {
+                "position": "absolute",
+                "bottom": "0"
+              },
+              "url": "https://ik.imagekit.io/saepulmalik/mlc21/decoration_2_XivUZC62J.png?updatedAt=1629206945002"
+            }
+          ]
+        },
+        "title": {
+          "type": "text",
+          "content": "Latar Virtual",
+          "style": "blue"
+        },
+        "description": "<p> Ayo unduh latar virtual ini dan jangan lupa untuk memakainya selama acara Mandiri Learning Carnival 2021</p> ",
+        "src": "https://ik.imagekit.io/saepulmalik/mlc_region_6/virtual_background_QagURKMuBo2.jpg?updatedAt=1630817653255",
+        "reverse": false,
+        "cta": [
+          {
+            "title": "Unduh",
+            "url": "https://drive.google.com/file/d/10KJ-uFs_ovfzNbP1Gp39Z17N8XUpi8MH/view?usp=sharing"
           }
         ]
       },
-      "title": {
-        "type": "text",
-        "content": "Latar Virtual",
-        "style": "blue"
+      {
+        "section": {
+          "name": "fotovirtual",
+          "component": "ContentIllu",
+          "style": {
+            "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
+          }
+        },
+        "title": {
+          "type": "text",
+          "content": "Berikan Senyum Terbaikmu",
+          "style": "blue"
+        },
+        "subtitle": {
+          "type": "text",
+          "content": "Ayo coba foto virtual ini",
+          "style": null
+        },
+        "content": [
+          {
+            "type": "illu",
+            "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobootj_3.png",
+            "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
+          },
+          {
+            "type": "illu",
+            "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobooth_1.png",
+            "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
+          }
+        ],
+        "cta": [
+          {
+            "title": "Ambil Foto",
+            "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
+          }
+        ]
       },
-      "description": "<p> Ayo unduh latar virtual ini dan jangan lupa untuk memakainya selama acara Mandiri Learning Carnival 2021</p> ",
-      "src": "https://ik.imagekit.io/saepulmalik/mlc_region_6/virtual_background_QagURKMuBo2.jpg?updatedAt=1630817653255",
-      "reverse": false,
-      "cta": [
-        {
-          "title": "Unduh",
-          "url": "https://drive.google.com/file/d/10KJ-uFs_ovfzNbP1Gp39Z17N8XUpi8MH/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      "section": {
-        "name": "fotovirtual",
-        "component": "ContentIllu",
-        "style": {
-          "background": "linear-gradient(360deg, rgba(255, 182, 0, 0.2) 0%, rgba(255, 255, 255, 0) 216.44%), linear-gradient(90.17deg, #FFC11E 0.14%, #FFDF92 49.47%, #FEB703 99.84%)"
-        }
-      },
-      "title": {
-        "type": "text",
-        "content": "Berikan Senyum Terbaikmu",
-        "style": "blue"
-      },
-      "subtitle": {
-        "type": "text",
-        "content": "Ayo coba foto virtual ini",
-        "style": null
-      },
-      "content": [
-        {
-          "type": "illu",
-          "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobootj_3.png",
-          "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
+      {
+        "section": {
+          "name": "faq",
+          "component": "Faq"
         },
-        {
-          "type": "illu",
-          "content": "https://cdn.inspigo.id/public/mlc2021/Illu/frame_photobooth_1.png",
-          "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
-        }
-      ],
-      "cta": [
-        {
-          "title": "Ambil Foto",
-          "url": "https://app.virtualbooth.me/booth/xd1mXEdO"
-        }
-      ]
-    },
-    {
-      "section": {
-        "name": "faq",
-        "component": "Faq"
-      },
-      "title": {
-        "type": "text",
-        "content": "Pertanyaan Yang Sering Diajukan",
-        "style": "blue"
-      },
-      "questions": [
-        {
-          "title": "1 Saya mengalami kendala saat masuk ke dalam website Mandiri Learning Carnival 2021.",
-          "description": "<p>Pastikan kamu sudah memasukan NIP dengan benar dan mengisi baris email dengan email pribadimu lalu menekan tombol “Masuk”.</p>"
+        "title": {
+          "type": "text",
+          "content": "Pertanyaan Yang Sering Diajukan",
+          "style": "blue"
         },
-        {
-          "title": "2 Saya tidak memiliki email Mandiri, apakah saya masih dapat masuk ke dalam website Mandiri Learning Carnival 2021?",
-          "description": "<p>Kamu tidak harus menggunakan email Mandiri untuk masuk ke dalam website ini, cukup masukan email pribadi kamu yang masih aktif.</p>"
-        },
-        {
-          "title": "3 Saya sudah memasukan NIP dengan benar dan mengisi baris email tetapi saya mendapat notifikasi bahwa NIP saya tidak terdaftar.",
-          "description": "<p>Pastikan kamu memang berhak mengikuti acara ini dan apabila masih menemukan kendala, kamu dapat menghubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
-        },
-        {
-          "title": "4 Di mana saya dapat melihat jadwal acara/kelas yang harus saya ikuti?",
-          "description": "<p>Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Setelah itu klik “Jadwal Saya” pada navigasi untuk melihat seluruh acara/kelas yang harus kamu ikuti lalu pilih acara/kelas yang ingin diikuti dengan mengklik tombol “Masuk”, kamu akan otomatis diarahkan ke Zoom.</p>"
-        },
-        {
-          "title": "5 Saya sudah berhasil masuk ke dalam website Mandiri Learning Carnival 2021 tapi saya tidak dapat melihat jadwal acara/kelas saya.",
-          "description": "<p>Ada dua kondisi untuk menjelaskan hal ini: Pertama, acara/kelas di region kamu memang belum dimulai. Kedua, acara/kelas di region kamu sudah selesai. Apabila acara/kelas di region kamu sedang berjalan namun kamu tidak melihat jadwalmu, silakan hubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
-        },
-        {
-          "title": "6 Bagaimana cara saya mengikuti kompetisi Audio Story Competition?",
-          "description": "<p> Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Pilih “Kompetisi” pada navigasi lalu kamu dapat mengunduh panduan lengkapnya untuk mengetahui cara berpartisipasi.</p>"
-        },
-        {
-          "title": "7 Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
-          "description": "<p>Silakan kirimkan pertanyaan kamu dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
-        }
-      ]
-    }
-  ]
-}
+        "questions": [
+          {
+            "title": "1 Saya mengalami kendala saat masuk ke dalam website Mandiri Learning Carnival 2021.",
+            "description": "<p>Pastikan kamu sudah memasukan NIP dengan benar dan mengisi baris email dengan email pribadimu lalu menekan tombol “Masuk”.</p>"
+          },
+          {
+            "title": "2 Saya tidak memiliki email Mandiri, apakah saya masih dapat masuk ke dalam website Mandiri Learning Carnival 2021?",
+            "description": "<p>Kamu tidak harus menggunakan email Mandiri untuk masuk ke dalam website ini, cukup masukan email pribadi kamu yang masih aktif.</p>"
+          },
+          {
+            "title": "3 Saya sudah memasukan NIP dengan benar dan mengisi baris email tetapi saya mendapat notifikasi bahwa NIP saya tidak terdaftar.",
+            "description": "<p>Pastikan kamu memang berhak mengikuti acara ini dan apabila masih menemukan kendala, kamu dapat menghubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
+          },
+          {
+            "title": "4 Di mana saya dapat melihat jadwal acara/kelas yang harus saya ikuti?",
+            "description": "<p>Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Setelah itu klik “Jadwal Saya” pada navigasi untuk melihat seluruh acara/kelas yang harus kamu ikuti lalu pilih acara/kelas yang ingin diikuti dengan mengklik tombol “Masuk”, kamu akan otomatis diarahkan ke Zoom.</p>"
+          },
+          {
+            "title": "5 Saya sudah berhasil masuk ke dalam website Mandiri Learning Carnival 2021 tapi saya tidak dapat melihat jadwal acara/kelas saya.",
+            "description": "<p>Ada dua kondisi untuk menjelaskan hal ini: Pertama, acara/kelas di region kamu memang belum dimulai. Kedua, acara/kelas di region kamu sudah selesai. Apabila acara/kelas di region kamu sedang berjalan namun kamu tidak melihat jadwalmu, silakan hubungi kami dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
+          },
+          {
+            "title": "6 Bagaimana cara saya mengikuti kompetisi Audio Story Competition?",
+            "description": "<p> Pastikan kamu sudah masuk ke dalam website Mandiri Learning Carnival 2021 dengan NIP yang benar. Pilih “Kompetisi” pada navigasi lalu kamu dapat mengunduh panduan lengkapnya untuk mengetahui cara berpartisipasi.</p>"
+          },
+          {
+            "title": "7 Apabila saya ada pertanyaan lain di luar pertanyaan di atas dapat menghubungi ke mana?",
+            "description": "<p>Silakan kirimkan pertanyaan kamu dengan menekan tombol “Bantuan” yang ada di kanan bawah layarmu.</p>"
+          }
+        ]
+      }
+    ]
+  }
+  

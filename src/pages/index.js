@@ -18,7 +18,7 @@ const IndexPage = () => {
   }, [])
 
   const fetchTemplates = () => {
-    fetch("https://inspigo-b2b-api.herokuapp.com/mlc/templates")
+    fetch(`${process.env.GATSBY_API_URL}`)
       .then(response => response.json())
       .then(data => {
         setTemplates(data)
